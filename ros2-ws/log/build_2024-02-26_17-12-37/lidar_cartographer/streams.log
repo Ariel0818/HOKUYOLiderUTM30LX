@@ -1,0 +1,23 @@
+[0.126s] Invoking command in '/home/precag/Documents/ros2-ws/build/lidar_cartographer': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/precag/Documents/ros2-ws/build/lidar_cartographer -- -j8 -l8
+[0.184s] Invoked command in '/home/precag/Documents/ros2-ws/build/lidar_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/precag/Documents/ros2-ws/build/lidar_cartographer -- -j8 -l8
+[0.271s] Invoking command in '/home/precag/Documents/ros2-ws/build/lidar_cartographer': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/precag/Documents/ros2-ws/build/lidar_cartographer
+[0.295s] -- Install configuration: ""
+[0.296s] -- Execute custom install script
+[0.296s] -- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/lidar_cartographer/share/lidar_cartographer/config/cartographer_2d.lua
+[0.296s] -- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/lidar_cartographer/share/lidar_cartographer/launch/cartographer.launch.py
+[0.296s] -- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/lidar_cartographer/share/ament_index/resource_index/package_run_dependencies/lidar_cartographer
+[0.296s] -- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/lidar_cartographer/share/ament_index/resource_index/parent_prefix_path/lidar_cartographer
+[0.296s] -- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/lidar_cartographer/share/lidar_cartographer/environment/ament_prefix_path.sh
+[0.296s] -- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/lidar_cartographer/share/lidar_cartographer/environment/ament_prefix_path.dsv
+[0.296s] -- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/lidar_cartographer/share/lidar_cartographer/environment/path.sh
+[0.296s] -- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/lidar_cartographer/share/lidar_cartographer/environment/path.dsv
+[0.296s] -- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/lidar_cartographer/share/lidar_cartographer/local_setup.bash
+[0.297s] -- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/lidar_cartographer/share/lidar_cartographer/local_setup.sh
+[0.297s] -- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/lidar_cartographer/share/lidar_cartographer/local_setup.zsh
+[0.297s] -- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/lidar_cartographer/share/lidar_cartographer/local_setup.dsv
+[0.297s] -- Symlinking: /home/precag/Documents/ros2-ws/install/lidar_cartographer/share/lidar_cartographer/package.dsv
+[0.312s] -- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/lidar_cartographer/share/ament_index/resource_index/packages/lidar_cartographer
+[0.312s] -- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/lidar_cartographer/share/lidar_cartographer/cmake/lidar_cartographerConfig.cmake
+[0.312s] -- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/lidar_cartographer/share/lidar_cartographer/cmake/lidar_cartographerConfig-version.cmake
+[0.313s] -- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/lidar_cartographer/share/lidar_cartographer/package.xml
+[0.314s] Invoked command in '/home/precag/Documents/ros2-ws/build/lidar_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/precag/Documents/ros2-ws/build/lidar_cartographer

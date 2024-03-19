@@ -1,0 +1,58 @@
+[ 29%] Built target urg_c
+[ 35%] Built target open_urg_sensor
+[ 41%] Built target calculate_xy
+[ 47%] Built target angle_convert_test
+[ 52%] Built target find_port
+[ 58%] Built target get_distance_intensity
+[ 64%] Built target get_distance
+[ 70%] Built target get_multiecho_intensity
+[ 82%] Built target reboot_test
+[ 82%] Built target get_multiecho
+[ 88%] Built target sensor_parameter
+[ 94%] Built target timeout_test
+[100%] Built target sync_time_stamp
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/urg_c/lib/liburg_c.so
+-- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/urg_c/lib/libopen_urg_sensor.a
+-- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/urg_c/bin/angle_convert_test
+-- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/urg_c/bin/calculate_xy
+-- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/urg_c/bin/find_port
+-- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/urg_c/bin/get_distance
+-- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/urg_c/bin/get_distance_intensity
+-- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/urg_c/bin/get_multiecho
+-- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/urg_c/bin/get_multiecho_intensity
+-- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/urg_c/bin/reboot_test
+-- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/urg_c/bin/sensor_parameter
+-- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/urg_c/bin/sync_time_stamp
+-- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/urg_c/bin/timeout_test
+-- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/urg_c/include/urg_c/urg_connection.h
+-- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/urg_c/include/urg_c/urg_debug.h
+-- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/urg_c/include/urg_c/urg_detect_os.h
+-- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/urg_c/include/urg_c/urg_errno.h
+-- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/urg_c/include/urg_c/urg_ring_buffer.h
+-- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/urg_c/include/urg_c/urg_sensor.h
+-- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/urg_c/include/urg_c/urg_serial.h
+-- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/urg_c/include/urg_c/urg_serial_utils.h
+-- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/urg_c/include/urg_c/urg_tcpclient.h
+-- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/urg_c/include/urg_c/urg_time.h
+-- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/urg_c/include/urg_c/urg_utils.h
+-- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/environment/library_path.sh
+-- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/environment/library_path.dsv
+-- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/urg_c/share/ament_index/resource_index/package_run_dependencies/urg_c
+-- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/urg_c/share/ament_index/resource_index/parent_prefix_path/urg_c
+-- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/environment/path.sh
+-- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/environment/path.dsv
+-- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/local_setup.bash
+-- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/local_setup.sh
+-- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/local_setup.zsh
+-- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/local_setup.dsv
+-- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/package.dsv
+-- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/urg_c/share/ament_index/resource_index/packages/urg_c
+-- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/cmake/urg_cConfig.cmake
+-- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/cmake/urg_cConfig-version.cmake
+-- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/package.xml

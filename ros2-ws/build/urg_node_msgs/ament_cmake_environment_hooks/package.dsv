@@ -1,0 +1,4 @@
+source;share/urg_node_msgs/local_setup.bash
+source;share/urg_node_msgs/local_setup.dsv
+source;share/urg_node_msgs/local_setup.sh
+source;share/urg_node_msgs/local_setup.zsh

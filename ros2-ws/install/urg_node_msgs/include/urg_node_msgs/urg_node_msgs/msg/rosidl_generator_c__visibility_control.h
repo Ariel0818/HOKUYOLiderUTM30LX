@@ -1,0 +1,1 @@
+/home/precag/Documents/ros2-ws/build/urg_node_msgs/rosidl_generator_c/urg_node_msgs/msg/rosidl_generator_c__visibility_control.h

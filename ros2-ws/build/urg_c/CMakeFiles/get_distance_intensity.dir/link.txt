@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/get_distance_intensity.dir/current/samples/get_distance_intensity.c.o -o get_distance_intensity  -Wl,-rpath,/home/precag/Documents/ros2-ws/build/urg_c libopen_urg_sensor.a liburg_c.so -lrt -lm 

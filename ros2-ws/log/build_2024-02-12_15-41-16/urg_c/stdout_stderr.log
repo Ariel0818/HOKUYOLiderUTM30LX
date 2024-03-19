@@ -1,0 +1,110 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/precag/Documents/ros2-ws/build/urg_c
+[  2%] [32mBuilding C object CMakeFiles/urg_c.dir/current/src/urg_sensor.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/urg_c.dir/current/src/urg_debug.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/urg_c.dir/current/src/urg_connection.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/urg_c.dir/current/src/urg_utils.c.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/urg_c.dir/current/src/urg_ring_buffer.c.o[0m
+[ 17%] [32mBuilding C object CMakeFiles/urg_c.dir/current/src/urg_tcpclient.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/urg_c.dir/current/src/urg_serial_utils.c.o[0m
+[ 23%] [32mBuilding C object CMakeFiles/urg_c.dir/current/src/urg_serial.c.o[0m
+[ 26%] [32mBuilding C object CMakeFiles/urg_c.dir/current/src/urg_time.c.o[0m
+[ 29%] [32m[1mLinking C shared library liburg_c.so[0m
+[ 29%] Built target urg_c
+[ 32%] [32mBuilding C object CMakeFiles/open_urg_sensor.dir/current/samples/open_urg_sensor.c.o[0m
+[ 35%] [32m[1mLinking C static library libopen_urg_sensor.a[0m
+[ 35%] Built target open_urg_sensor
+[ 41%] [32mBuilding C object CMakeFiles/angle_convert_test.dir/current/samples/angle_convert_test.c.o[0m
+[ 44%] [32mBuilding C object CMakeFiles/find_port.dir/current/samples/find_port.c.o[0m
+[ 41%] [32mBuilding C object CMakeFiles/get_distance.dir/current/samples/get_distance.c.o[0m
+[ 47%] [32mBuilding C object CMakeFiles/get_multiecho_intensity.dir/current/samples/get_multiecho_intensity.c.o[0m
+[ 50%] [32mBuilding C object CMakeFiles/reboot_test.dir/current/samples/reboot_test.c.o[0m
+[ 52%] [32mBuilding C object CMakeFiles/calculate_xy.dir/current/samples/calculate_xy.c.o[0m
+[ 55%] [32mBuilding C object CMakeFiles/get_distance_intensity.dir/current/samples/get_distance_intensity.c.o[0m
+[ 58%] [32mBuilding C object CMakeFiles/get_multiecho.dir/current/samples/get_multiecho.c.o[0m
+[ 61%] [32m[1mLinking C executable find_port[0m
+[ 64%] [32m[1mLinking C executable get_multiecho_intensity[0m
+[ 67%] [32m[1mLinking C executable angle_convert_test[0m
+[ 70%] [32m[1mLinking C executable get_distance[0m
+[ 73%] [32m[1mLinking C executable reboot_test[0m
+[ 76%] [32m[1mLinking C executable get_distance_intensity[0m
+[ 79%] [32m[1mLinking C executable calculate_xy[0m
+[ 79%] Built target find_port
+[ 82%] [32m[1mLinking C executable get_multiecho[0m
+[ 82%] Built target get_distance
+[ 82%] Built target get_multiecho_intensity
+[ 85%] [32mBuilding C object CMakeFiles/sensor_parameter.dir/current/samples/sensor_parameter.c.o[0m
+[ 85%] Built target reboot_test
+[ 85%] Built target angle_convert_test
+[ 85%] Built target calculate_xy
+[ 85%] Built target get_distance_intensity
+[ 88%] [32mBuilding C object CMakeFiles/timeout_test.dir/current/samples/timeout_test.c.o[0m
+[ 88%] Built target get_multiecho
+[ 91%] [32mBuilding C object CMakeFiles/sync_time_stamp.dir/current/samples/sync_time_stamp.c.o[0m
+[ 94%] [32m[1mLinking C executable sensor_parameter[0m
+[ 97%] [32m[1mLinking C executable timeout_test[0m
+[100%] [32m[1mLinking C executable sync_time_stamp[0m
+[100%] Built target sensor_parameter
+[100%] Built target timeout_test
+[100%] Built target sync_time_stamp
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/lib/liburg_c.so
+-- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/lib/libopen_urg_sensor.a
+-- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/bin/angle_convert_test
+-- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/bin/calculate_xy
+-- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/bin/find_port
+-- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/bin/get_distance
+-- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/bin/get_distance_intensity
+-- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/bin/get_multiecho
+-- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/bin/get_multiecho_intensity
+-- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/bin/reboot_test
+-- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/bin/sensor_parameter
+-- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/bin/sync_time_stamp
+-- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/bin/timeout_test
+-- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/include/urg_c/urg_connection.h
+-- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/include/urg_c/urg_debug.h
+-- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/include/urg_c/urg_detect_os.h
+-- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/include/urg_c/urg_errno.h
+-- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/include/urg_c/urg_ring_buffer.h
+-- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/include/urg_c/urg_sensor.h
+-- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/include/urg_c/urg_serial.h
+-- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/include/urg_c/urg_serial_utils.h
+-- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/include/urg_c/urg_tcpclient.h
+-- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/include/urg_c/urg_time.h
+-- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/include/urg_c/urg_utils.h
+-- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/environment/library_path.sh
+-- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/environment/library_path.dsv
+-- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/share/ament_index/resource_index/package_run_dependencies/urg_c
+-- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/share/ament_index/resource_index/parent_prefix_path/urg_c
+-- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/environment/ament_prefix_path.sh
+-- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/environment/ament_prefix_path.dsv
+-- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/environment/path.sh
+-- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/environment/path.dsv
+-- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/local_setup.bash
+-- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/local_setup.sh
+-- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/local_setup.zsh
+-- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/local_setup.dsv
+-- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/package.dsv
+-- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/share/ament_index/resource_index/packages/urg_c
+-- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/cmake/urg_cConfig.cmake
+-- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/cmake/urg_cConfig-version.cmake
+-- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/package.xml

@@ -1,0 +1,1 @@
+/home/precag/Documents/ros2-ws/src/lidar_cartographer/config/cartographer_2d.lua

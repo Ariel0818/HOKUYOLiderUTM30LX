@@ -1,0 +1,69 @@
+[0.270s] Invoking command in '/home/precag/Documents/ros2-ws/build/laser_proc': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/precag/Documents/ros2-ws/src/laser_proc -DCMAKE_INSTALL_PREFIX=/home/precag/Documents/ros2-ws/install/laser_proc
+[0.298s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.507s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.535s] -- Found class_loader: 2.2.0 (/opt/ros/humble/share/class_loader/cmake)
+[0.566s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.599s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.603s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.618s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.631s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.656s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.798s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.803s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.130s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.418s] -- Found rclcpp_components: 16.0.8 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.522s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.732s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.847s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.848s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/precag/Documents/ros2-ws/src/laser_proc/include>
+[1.848s] -- Configured cppcheck exclude dirs and/or files: 
+[1.852s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.852s] -- Configured cpplint exclude dirs and/or files: 
+[1.853s] -- Added test 'lint_cmake' to check CMake code style
+[1.858s] -- Added test 'uncrustify' to check C / C++ code style
+[1.858s] -- Configured uncrustify additional arguments: 
+[1.859s] -- Added test 'xmllint' to check XML markup files
+[1.867s] -- Configuring done
+[1.889s] -- Generating done
+[1.891s] -- Build files have been written to: /home/precag/Documents/ros2-ws/build/laser_proc
+[2.051s] Invoked command in '/home/precag/Documents/ros2-ws/build/laser_proc' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/precag/Documents/ros2-ws/src/laser_proc -DCMAKE_INSTALL_PREFIX=/home/precag/Documents/ros2-ws/install/laser_proc
+[2.055s] Invoking command in '/home/precag/Documents/ros2-ws/build/laser_proc': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/precag/Documents/ros2-ws/build/laser_proc -- -j8 -l8
+[2.113s] [35m[1mConsolidate compiler generated dependencies of target laser_proc_node[0m
+[2.114s] [35m[1mConsolidate compiler generated dependencies of target laser_proc[0m
+[2.138s] [ 42%] Built target laser_proc
+[2.142s] [ 71%] Built target laser_proc_node
+[2.149s] [35m[1mConsolidate compiler generated dependencies of target laser_proc_component[0m
+[2.166s] [100%] Built target laser_proc_component
+[2.178s] Invoked command in '/home/precag/Documents/ros2-ws/build/laser_proc' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/precag/Documents/ros2-ws/build/laser_proc -- -j8 -l8
+[2.218s] Invoking command in '/home/precag/Documents/ros2-ws/build/laser_proc': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/precag/Documents/ros2-ws/build/laser_proc
+[2.226s] -- Install configuration: ""
+[2.226s] -- Execute custom install script
+[2.227s] -- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/laser_proc/lib/laser_proc/laser_proc_node
+[2.227s] -- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/laser_proc/lib/liblaser_proc.so
+[2.228s] -- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/laser_proc/lib/liblaser_proc_component.so
+[2.228s] -- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/laser_proc/include/laser_proc/laser_proc.hpp
+[2.228s] -- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/laser_proc/include/laser_proc/laser_proc_component.hpp
+[2.229s] -- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/laser_proc/include/laser_proc/laser_publisher.hpp
+[2.230s] -- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/laser_proc/include/laser_proc/visibility_control.hpp
+[2.230s] -- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/laser_proc/share/laser_proc/environment/library_path.sh
+[2.230s] -- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/laser_proc/share/laser_proc/environment/library_path.dsv
+[2.231s] -- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/laser_proc/share/ament_index/resource_index/package_run_dependencies/laser_proc
+[2.231s] -- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/laser_proc/share/ament_index/resource_index/parent_prefix_path/laser_proc
+[2.231s] -- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/laser_proc/share/laser_proc/environment/ament_prefix_path.sh
+[2.232s] -- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/laser_proc/share/laser_proc/environment/ament_prefix_path.dsv
+[2.233s] -- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/laser_proc/share/laser_proc/environment/path.sh
+[2.233s] -- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/laser_proc/share/laser_proc/environment/path.dsv
+[2.234s] -- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/laser_proc/share/laser_proc/local_setup.bash
+[2.234s] -- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/laser_proc/share/laser_proc/local_setup.sh
+[2.234s] -- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/laser_proc/share/laser_proc/local_setup.zsh
+[2.235s] -- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/laser_proc/share/laser_proc/local_setup.dsv
+[2.235s] -- Symlinking: /home/precag/Documents/ros2-ws/install/laser_proc/share/laser_proc/package.dsv
+[2.248s] -- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/laser_proc/share/ament_index/resource_index/packages/laser_proc
+[2.248s] -- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/laser_proc/share/ament_index/resource_index/rclcpp_components/laser_proc
+[2.248s] -- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/laser_proc/share/laser_proc/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.248s] -- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/laser_proc/share/laser_proc/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.248s] -- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/laser_proc/share/laser_proc/cmake/ament_cmake_export_libraries-extras.cmake
+[2.248s] -- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/laser_proc/share/laser_proc/cmake/laser_procConfig.cmake
+[2.249s] -- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/laser_proc/share/laser_proc/cmake/laser_procConfig-version.cmake
+[2.249s] -- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/laser_proc/share/laser_proc/package.xml
+[2.250s] Invoked command in '/home/precag/Documents/ros2-ws/build/laser_proc' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/precag/Documents/ros2-ws/build/laser_proc

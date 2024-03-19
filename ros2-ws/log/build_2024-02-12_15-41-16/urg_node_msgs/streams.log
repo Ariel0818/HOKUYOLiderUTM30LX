@@ -1,0 +1,207 @@
+[0.119s] Invoking command in '/home/precag/Documents/ros2-ws/build/urg_node_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/precag/Documents/ros2-ws/src/urg_node_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/precag/Documents/ros2-ws/install/urg_node_msgs
+[0.351s] -- The C compiler identification is GNU 11.4.0
+[0.475s] -- The CXX compiler identification is GNU 11.4.0
+[0.486s] -- Detecting C compiler ABI info
+[0.564s] -- Detecting C compiler ABI info - done
+[0.578s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.579s] -- Detecting C compile features
+[0.580s] -- Detecting C compile features - done
+[0.584s] -- Detecting CXX compiler ABI info
+[0.687s] -- Detecting CXX compiler ABI info - done
+[0.693s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.694s] -- Detecting CXX compile features
+[0.694s] -- Detecting CXX compile features - done
+[0.701s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.950s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.023s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.069s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[1.134s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.144s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.158s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.184s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.225s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.270s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.295s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[1.724s] -- Found ament_cmake_cppcheck: 0.12.10 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[1.730s] -- Found ament_cmake_cpplint: 0.12.10 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[1.738s] -- Found ament_cmake_uncrustify: 0.12.10 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[1.744s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.333s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.504s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.543s] -- Found PythonInterp: /home/precag/anaconda3/bin/python3 (found suitable version "3.9.13", minimum required is "3.6") 
+[2.545s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.586s] -- Found PythonLibs: /home/precag/anaconda3/lib/libpython3.9.so (found suitable version "3.9.13", minimum required is "3.5") 
+[2.587s] -- Using PYTHON_EXECUTABLE: /home/precag/anaconda3/bin/python3
+[2.587s] -- Using PYTHON_INCLUDE_DIRS: /home/precag/anaconda3/include/python3.9
+[2.587s] -- Using PYTHON_LIBRARIES: /home/precag/anaconda3/lib/libpython3.9.so
+[2.628s] -- Found PythonExtra: .so  
+[3.104s] -- Using numpy include directory: /home/precag/anaconda3/lib/python3.9/site-packages/numpy/core/include
+[3.122s] -- Found ament_cmake_flake8: 0.12.10 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[3.124s] -- Found ament_cmake_pep257: 0.12.10 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[3.145s] -- Configuring done
+[3.202s] -- Generating done
+[3.203s] -- Build files have been written to: /home/precag/Documents/ros2-ws/build/urg_node_msgs
+[3.215s] Invoked command in '/home/precag/Documents/ros2-ws/build/urg_node_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/precag/Documents/ros2-ws/src/urg_node_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/precag/Documents/ros2-ws/install/urg_node_msgs
+[3.220s] Invoking command in '/home/precag/Documents/ros2-ws/build/urg_node_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/precag/Documents/ros2-ws/build/urg_node_msgs -- -j8 -l8
+[3.285s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.305s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.369s] [  6%] Built target ament_cmake_python_symlink_urg_node_msgs
+[3.971s] [  6%] Built target urg_node_msgs__cpp
+[3.985s] [  9%] [32mBuilding C object CMakeFiles/urg_node_msgs__rosidl_generator_c.dir/rosidl_generator_c/urg_node_msgs/msg/detail/status__functions.c.o[0m
+[3.988s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.989s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.997s] [ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.083s] [ 22%] [32m[1mLinking C shared library liburg_node_msgs__rosidl_generator_c.so[0m
+[4.184s] [ 22%] Built target urg_node_msgs__rosidl_generator_c
+[4.226s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.228s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.240s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.317s] running egg_info
+[4.337s] creating urg_node_msgs.egg-info
+[4.338s] writing urg_node_msgs.egg-info/PKG-INFO
+[4.338s] writing dependency_links to urg_node_msgs.egg-info/dependency_links.txt
+[4.338s] writing top-level names to urg_node_msgs.egg-info/top_level.txt
+[4.338s] writing manifest file 'urg_node_msgs.egg-info/SOURCES.txt'
+[4.338s] reading manifest file 'urg_node_msgs.egg-info/SOURCES.txt'
+[4.338s] writing manifest file 'urg_node_msgs.egg-info/SOURCES.txt'
+[4.473s] [ 32%] Built target ament_cmake_python_build_urg_node_msgs_egg
+[4.688s] [ 35%] [32mBuilding CXX object CMakeFiles/urg_node_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/urg_node_msgs/msg/status__type_support.cpp.o[0m
+[4.830s] [ 38%] [32mBuilding CXX object CMakeFiles/urg_node_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/urg_node_msgs/msg/detail/dds_fastrtps/status__type_support.cpp.o[0m
+[4.855s] [ 41%] [32mBuilding CXX object CMakeFiles/urg_node_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/urg_node_msgs/msg/detail/status__type_support.cpp.o[0m
+[4.963s] [ 45%] [32mBuilding CXX object CMakeFiles/urg_node_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/urg_node_msgs/msg/status__type_support.cpp.o[0m
+[5.007s] [ 48%] [32mBuilding CXX object CMakeFiles/urg_node_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/urg_node_msgs/msg/detail/status__type_support_c.cpp.o[0m
+[5.014s] [ 51%] [32mBuilding C object CMakeFiles/urg_node_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/urg_node_msgs/msg/detail/status__type_support.c.o[0m
+[5.045s] [ 54%] [32m[1mLinking CXX shared library liburg_node_msgs__rosidl_typesupport_c.so[0m
+[5.113s] [ 58%] [32m[1mLinking C shared library liburg_node_msgs__rosidl_typesupport_introspection_c.so[0m
+[5.194s] [ 58%] Built target urg_node_msgs__rosidl_typesupport_c
+[5.211s] [ 61%] [32m[1mLinking CXX shared library liburg_node_msgs__rosidl_typesupport_cpp.so[0m
+[5.222s] [ 61%] Built target urg_node_msgs__rosidl_typesupport_introspection_c
+[5.313s] [ 61%] Built target urg_node_msgs__rosidl_typesupport_cpp
+[5.556s] [ 64%] [32m[1mLinking CXX shared library liburg_node_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.568s] [ 67%] [32m[1mLinking CXX shared library liburg_node_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[5.611s] [ 70%] [32m[1mLinking CXX shared library liburg_node_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[5.681s] [ 70%] Built target urg_node_msgs__rosidl_typesupport_introspection_cpp
+[5.706s] [ 70%] Built target urg_node_msgs__rosidl_typesupport_fastrtps_cpp
+[5.715s] [ 70%] Built target urg_node_msgs__rosidl_typesupport_fastrtps_c
+[5.744s] [ 70%] Built target urg_node_msgs
+[5.772s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[6.751s] [ 74%] Built target urg_node_msgs__py
+[6.774s] [ 77%] [32mBuilding C object CMakeFiles/urg_node_msgs__rosidl_generator_py.dir/rosidl_generator_py/urg_node_msgs/msg/_status_s.c.o[0m
+[6.961s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/urg_node_msgs/liburg_node_msgs__rosidl_generator_py.so[0m
+[7.025s] [ 80%] Built target urg_node_msgs__rosidl_generator_py
+[7.054s] [ 83%] [32mBuilding C object CMakeFiles/urg_node_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/urg_node_msgs/_urg_node_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[7.057s] [ 87%] [32mBuilding C object CMakeFiles/urg_node_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/urg_node_msgs/_urg_node_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[7.058s] [ 90%] [32mBuilding C object CMakeFiles/urg_node_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/urg_node_msgs/_urg_node_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[7.197s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/urg_node_msgs/urg_node_msgs_s__rosidl_typesupport_fastrtps_c.cpython-39-x86_64-linux-gnu.so[0m
+[7.216s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/urg_node_msgs/urg_node_msgs_s__rosidl_typesupport_introspection_c.cpython-39-x86_64-linux-gnu.so[0m
+[7.217s] [100%] [32m[1mLinking C shared library rosidl_generator_py/urg_node_msgs/urg_node_msgs_s__rosidl_typesupport_c.cpython-39-x86_64-linux-gnu.so[0m
+[7.259s] [100%] Built target urg_node_msgs__rosidl_typesupport_fastrtps_c__pyext
+[7.272s] [100%] Built target urg_node_msgs__rosidl_typesupport_c__pyext
+[7.274s] [100%] Built target urg_node_msgs__rosidl_typesupport_introspection_c__pyext
+[7.288s] Invoked command in '/home/precag/Documents/ros2-ws/build/urg_node_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/precag/Documents/ros2-ws/build/urg_node_msgs -- -j8 -l8
+[7.356s] Invoking command in '/home/precag/Documents/ros2-ws/build/urg_node_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/precag/Documents/ros2-ws/build/urg_node_msgs
+[7.363s] -- Install configuration: ""
+[7.363s] -- Execute custom install script
+[7.364s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node_msgs/share/ament_index/resource_index/rosidl_interfaces/urg_node_msgs
+[7.374s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node_msgs/include/urg_node_msgs/urg_node_msgs/msg/detail/status__functions.h
+[7.384s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node_msgs/include/urg_node_msgs/urg_node_msgs/msg/detail/status__struct.h
+[7.393s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node_msgs/include/urg_node_msgs/urg_node_msgs/msg/detail/status__type_support.h
+[7.405s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node_msgs/include/urg_node_msgs/urg_node_msgs/msg/rosidl_generator_c__visibility_control.h
+[7.419s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node_msgs/include/urg_node_msgs/urg_node_msgs/msg/status.h
+[7.432s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node_msgs/share/urg_node_msgs/environment/library_path.sh
+[7.445s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node_msgs/share/urg_node_msgs/environment/library_path.dsv
+[7.462s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node_msgs/include/urg_node_msgs/urg_node_msgs/msg/detail/status__rosidl_typesupport_fastrtps_c.h
+[7.472s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node_msgs/include/urg_node_msgs/urg_node_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.486s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node_msgs/include/urg_node_msgs/urg_node_msgs/msg/detail/status__builder.hpp
+[7.502s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node_msgs/include/urg_node_msgs/urg_node_msgs/msg/detail/status__struct.hpp
+[7.513s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node_msgs/include/urg_node_msgs/urg_node_msgs/msg/detail/status__traits.hpp
+[7.526s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node_msgs/include/urg_node_msgs/urg_node_msgs/msg/status.hpp
+[7.539s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node_msgs/include/urg_node_msgs/urg_node_msgs/msg/detail/status__rosidl_typesupport_fastrtps_cpp.hpp
+[7.550s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node_msgs/include/urg_node_msgs/urg_node_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.563s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node_msgs/include/urg_node_msgs/urg_node_msgs/msg/detail/status__rosidl_typesupport_introspection_c.h
+[7.578s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node_msgs/include/urg_node_msgs/urg_node_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.593s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node_msgs/include/urg_node_msgs/urg_node_msgs/msg/detail/status__rosidl_typesupport_introspection_cpp.hpp
+[7.607s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node_msgs/share/urg_node_msgs/environment/pythonpath.sh
+[7.620s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node_msgs/share/urg_node_msgs/environment/pythonpath.dsv
+[7.634s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node_msgs/local/lib/python3.10/dist-packages/urg_node_msgs-1.0.1-py3.10.egg-info/PKG-INFO
+[7.649s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node_msgs/local/lib/python3.10/dist-packages/urg_node_msgs-1.0.1-py3.10.egg-info/SOURCES.txt
+[7.658s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node_msgs/local/lib/python3.10/dist-packages/urg_node_msgs-1.0.1-py3.10.egg-info/dependency_links.txt
+[7.667s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node_msgs/local/lib/python3.10/dist-packages/urg_node_msgs-1.0.1-py3.10.egg-info/top_level.txt
+[7.679s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node_msgs/local/lib/python3.10/dist-packages/urg_node_msgs/__init__.py
+[7.689s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node_msgs/local/lib/python3.10/dist-packages/urg_node_msgs/_urg_node_msgs_s.ep.rosidl_typesupport_c.c
+[7.702s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node_msgs/local/lib/python3.10/dist-packages/urg_node_msgs/_urg_node_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[7.715s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node_msgs/local/lib/python3.10/dist-packages/urg_node_msgs/_urg_node_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[7.725s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node_msgs/local/lib/python3.10/dist-packages/urg_node_msgs/liburg_node_msgs__rosidl_generator_py.so
+[7.735s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node_msgs/local/lib/python3.10/dist-packages/urg_node_msgs/msg/__init__.py
+[7.747s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node_msgs/local/lib/python3.10/dist-packages/urg_node_msgs/msg/_status.py
+[7.761s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node_msgs/local/lib/python3.10/dist-packages/urg_node_msgs/msg/_status_s.c
+[7.769s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node_msgs/local/lib/python3.10/dist-packages/urg_node_msgs/urg_node_msgs_s__rosidl_typesupport_c.cpython-39-x86_64-linux-gnu.so
+[7.783s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node_msgs/local/lib/python3.10/dist-packages/urg_node_msgs/urg_node_msgs_s__rosidl_typesupport_fastrtps_c.cpython-39-x86_64-linux-gnu.so
+[7.794s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node_msgs/local/lib/python3.10/dist-packages/urg_node_msgs/urg_node_msgs_s__rosidl_typesupport_introspection_c.cpython-39-x86_64-linux-gnu.so
+[7.806s] -- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/urg_node_msgs/local/lib/python3.10/dist-packages/urg_node_msgs/urg_node_msgs_s__rosidl_typesupport_fastrtps_c.cpython-39-x86_64-linux-gnu.so
+[7.807s] -- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/urg_node_msgs/local/lib/python3.10/dist-packages/urg_node_msgs/urg_node_msgs_s__rosidl_typesupport_introspection_c.cpython-39-x86_64-linux-gnu.so
+[7.807s] -- Up-to-date symlink: /home/precag/Documents/ros2-ws/install/urg_node_msgs/local/lib/python3.10/dist-packages/urg_node_msgs/urg_node_msgs_s__rosidl_typesupport_c.cpython-39-x86_64-linux-gnu.so
+[7.807s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node_msgs/share/urg_node_msgs/msg/Status.idl
+[7.821s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node_msgs/share/urg_node_msgs/msg/Status.msg
+[7.832s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node_msgs/share/urg_node_msgs/mapping_rules.yaml
+[7.845s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node_msgs/share/ament_index/resource_index/package_run_dependencies/urg_node_msgs
+[7.857s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node_msgs/share/ament_index/resource_index/parent_prefix_path/urg_node_msgs
+[7.867s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node_msgs/share/urg_node_msgs/environment/ament_prefix_path.sh
+[7.879s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node_msgs/share/urg_node_msgs/environment/ament_prefix_path.dsv
+[7.894s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node_msgs/share/urg_node_msgs/environment/path.sh
+[7.907s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node_msgs/share/urg_node_msgs/environment/path.dsv
+[7.929s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node_msgs/share/urg_node_msgs/local_setup.bash
+[7.949s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node_msgs/share/urg_node_msgs/local_setup.sh
+[7.986s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node_msgs/share/urg_node_msgs/local_setup.zsh
+[8.023s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node_msgs/share/urg_node_msgs/local_setup.dsv
+[8.060s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node_msgs/share/urg_node_msgs/package.dsv
+[8.075s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node_msgs/share/ament_index/resource_index/packages/urg_node_msgs
+[8.106s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node_msgs/share/urg_node_msgs/cmake/rosidl_cmake-extras.cmake
+[8.148s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node_msgs/share/urg_node_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.184s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node_msgs/share/urg_node_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.251s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node_msgs/share/urg_node_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[8.286s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node_msgs/share/urg_node_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[8.311s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node_msgs/share/urg_node_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[8.324s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node_msgs/share/urg_node_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[8.359s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node_msgs/share/urg_node_msgs/cmake/urg_node_msgsConfig.cmake
+[8.382s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node_msgs/share/urg_node_msgs/cmake/urg_node_msgsConfig-version.cmake
+[8.397s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node_msgs/share/urg_node_msgs/package.xml
+[8.410s] -- Installing: /home/precag/Documents/ros2-ws/install/urg_node_msgs/lib/liburg_node_msgs__rosidl_generator_c.so
+[8.410s] -- Set runtime path of "/home/precag/Documents/ros2-ws/install/urg_node_msgs/lib/liburg_node_msgs__rosidl_generator_c.so" to ""
+[8.411s] -- Installing: /home/precag/Documents/ros2-ws/install/urg_node_msgs/lib/liburg_node_msgs__rosidl_typesupport_fastrtps_c.so
+[8.411s] -- Set runtime path of "/home/precag/Documents/ros2-ws/install/urg_node_msgs/lib/liburg_node_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[8.412s] -- Installing: /home/precag/Documents/ros2-ws/install/urg_node_msgs/lib/liburg_node_msgs__rosidl_typesupport_fastrtps_cpp.so
+[8.412s] -- Set runtime path of "/home/precag/Documents/ros2-ws/install/urg_node_msgs/lib/liburg_node_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[8.413s] -- Installing: /home/precag/Documents/ros2-ws/install/urg_node_msgs/lib/liburg_node_msgs__rosidl_typesupport_introspection_c.so
+[8.414s] -- Set runtime path of "/home/precag/Documents/ros2-ws/install/urg_node_msgs/lib/liburg_node_msgs__rosidl_typesupport_introspection_c.so" to ""
+[8.414s] -- Installing: /home/precag/Documents/ros2-ws/install/urg_node_msgs/lib/liburg_node_msgs__rosidl_typesupport_c.so
+[8.415s] -- Set runtime path of "/home/precag/Documents/ros2-ws/install/urg_node_msgs/lib/liburg_node_msgs__rosidl_typesupport_c.so" to ""
+[8.415s] -- Installing: /home/precag/Documents/ros2-ws/install/urg_node_msgs/lib/liburg_node_msgs__rosidl_typesupport_introspection_cpp.so
+[8.416s] -- Set runtime path of "/home/precag/Documents/ros2-ws/install/urg_node_msgs/lib/liburg_node_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[8.416s] -- Installing: /home/precag/Documents/ros2-ws/install/urg_node_msgs/lib/liburg_node_msgs__rosidl_typesupport_cpp.so
+[8.417s] -- Set runtime path of "/home/precag/Documents/ros2-ws/install/urg_node_msgs/lib/liburg_node_msgs__rosidl_typesupport_cpp.so" to ""
+[8.546s] Listing '/home/precag/Documents/ros2-ws/install/urg_node_msgs/local/lib/python3.10/dist-packages/urg_node_msgs'...
+[8.546s] Compiling '/home/precag/Documents/ros2-ws/install/urg_node_msgs/local/lib/python3.10/dist-packages/urg_node_msgs/__init__.py'...
+[8.547s] Listing '/home/precag/Documents/ros2-ws/install/urg_node_msgs/local/lib/python3.10/dist-packages/urg_node_msgs/msg'...
+[8.547s] Compiling '/home/precag/Documents/ros2-ws/install/urg_node_msgs/local/lib/python3.10/dist-packages/urg_node_msgs/msg/__init__.py'...
+[8.547s] Compiling '/home/precag/Documents/ros2-ws/install/urg_node_msgs/local/lib/python3.10/dist-packages/urg_node_msgs/msg/_status.py'...
+[8.558s] -- Installing: /home/precag/Documents/ros2-ws/install/urg_node_msgs/lib/liburg_node_msgs__rosidl_generator_py.so
+[8.559s] -- Set runtime path of "/home/precag/Documents/ros2-ws/install/urg_node_msgs/lib/liburg_node_msgs__rosidl_generator_py.so" to ""
+[8.560s] -- Installing: /home/precag/Documents/ros2-ws/install/urg_node_msgs/share/urg_node_msgs/cmake/export_urg_node_msgs__rosidl_generator_cExport.cmake
+[8.560s] -- Installing: /home/precag/Documents/ros2-ws/install/urg_node_msgs/share/urg_node_msgs/cmake/export_urg_node_msgs__rosidl_generator_cExport-noconfig.cmake
+[8.561s] -- Installing: /home/precag/Documents/ros2-ws/install/urg_node_msgs/share/urg_node_msgs/cmake/export_urg_node_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[8.561s] -- Installing: /home/precag/Documents/ros2-ws/install/urg_node_msgs/share/urg_node_msgs/cmake/export_urg_node_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[8.562s] -- Installing: /home/precag/Documents/ros2-ws/install/urg_node_msgs/share/urg_node_msgs/cmake/export_urg_node_msgs__rosidl_generator_cppExport.cmake
+[8.562s] -- Installing: /home/precag/Documents/ros2-ws/install/urg_node_msgs/share/urg_node_msgs/cmake/export_urg_node_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[8.563s] -- Installing: /home/precag/Documents/ros2-ws/install/urg_node_msgs/share/urg_node_msgs/cmake/export_urg_node_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[8.563s] -- Installing: /home/precag/Documents/ros2-ws/install/urg_node_msgs/share/urg_node_msgs/cmake/urg_node_msgs__rosidl_typesupport_introspection_cExport.cmake
+[8.564s] -- Installing: /home/precag/Documents/ros2-ws/install/urg_node_msgs/share/urg_node_msgs/cmake/urg_node_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[8.564s] -- Installing: /home/precag/Documents/ros2-ws/install/urg_node_msgs/share/urg_node_msgs/cmake/urg_node_msgs__rosidl_typesupport_cExport.cmake
+[8.565s] -- Installing: /home/precag/Documents/ros2-ws/install/urg_node_msgs/share/urg_node_msgs/cmake/urg_node_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[8.565s] -- Installing: /home/precag/Documents/ros2-ws/install/urg_node_msgs/share/urg_node_msgs/cmake/urg_node_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[8.566s] -- Installing: /home/precag/Documents/ros2-ws/install/urg_node_msgs/share/urg_node_msgs/cmake/urg_node_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[8.566s] -- Installing: /home/precag/Documents/ros2-ws/install/urg_node_msgs/share/urg_node_msgs/cmake/urg_node_msgs__rosidl_typesupport_cppExport.cmake
+[8.567s] -- Installing: /home/precag/Documents/ros2-ws/install/urg_node_msgs/share/urg_node_msgs/cmake/urg_node_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[8.567s] -- Installing: /home/precag/Documents/ros2-ws/install/urg_node_msgs/share/urg_node_msgs/cmake/export_urg_node_msgs__rosidl_generator_pyExport.cmake
+[8.568s] -- Installing: /home/precag/Documents/ros2-ws/install/urg_node_msgs/share/urg_node_msgs/cmake/export_urg_node_msgs__rosidl_generator_pyExport-noconfig.cmake
+[8.577s] Invoked command in '/home/precag/Documents/ros2-ws/build/urg_node_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/precag/Documents/ros2-ws/build/urg_node_msgs

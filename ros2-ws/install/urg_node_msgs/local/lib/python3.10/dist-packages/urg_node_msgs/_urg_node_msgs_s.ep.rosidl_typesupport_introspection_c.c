@@ -1,0 +1,1 @@
+/home/precag/Documents/ros2-ws/build/urg_node_msgs/rosidl_generator_py/urg_node_msgs/_urg_node_msgs_s.ep.rosidl_typesupport_introspection_c.c

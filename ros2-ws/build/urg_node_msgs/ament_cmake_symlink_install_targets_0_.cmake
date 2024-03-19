@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/precag/Documents/ros2-ws/build/urg_node_msgs/rosidl_generator_py/urg_node_msgs/urg_node_msgs_s__rosidl_typesupport_fastrtps_c.cpython-39-x86_64-linux-gnu.so" "TARGETS" "urg_node_msgs__rosidl_typesupport_fastrtps_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/urg_node_msgs")

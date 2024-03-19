@@ -1,0 +1,56 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from urg_node_msgs/msg/Status.msg
+// generated code does not contain a copyright notice
+
+
+module urg_node_msgs {
+  module msg {
+    module Status_Constants {
+      const uint16 NORMAL = 0;
+      const uint16 SETTING = 1;
+    };
+    @verbatim (language="comment", text=
+      "Normal vs setting in the UAM manual.")
+    struct Status {
+      uint16 operating_mode;
+
+      @verbatim (language="comment", text=
+        "The configured area number the stop occurred in.")
+      uint16 area_number;
+
+      @verbatim (language="comment", text=
+        "If the laser is reporting an error or not.")
+      boolean error_status;
+
+      @verbatim (language="comment", text=
+        "The error code the laser is reporting.")
+      uint16 error_code;
+
+      @verbatim (language="comment", text=
+        "Does the laser report that it is locked out.")
+      boolean lockout_status;
+
+      @verbatim (language="comment", text=
+        "State of the different warning and safety zones")
+      boolean ossd_1;
+
+      boolean ossd_2;
+
+      boolean warning_1;
+
+      boolean warning_2;
+
+      boolean ossd_3;
+
+      boolean ossd_4;
+
+      @verbatim (language="comment", text=
+        "Distance in mm the stop was reported at.")
+      uint16 distance;
+
+      @verbatim (language="comment", text=
+        "The reported angle of the stop in deg.")
+      float angle;
+    };
+  };
+};

@@ -1,0 +1,1 @@
+/home/precag/Documents/ros2-ws/build/urg_node/ament_cmake_core/urg_nodeConfig-version.cmake

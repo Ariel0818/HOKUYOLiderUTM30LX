@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/timeout_test.dir/current/samples/timeout_test.c.o -o timeout_test  -Wl,-rpath,/home/precag/Documents/ros2-ws/build/urg_c libopen_urg_sensor.a liburg_c.so -lrt -lm 

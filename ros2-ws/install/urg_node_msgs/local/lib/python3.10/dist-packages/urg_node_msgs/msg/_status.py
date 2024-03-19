@@ -1,0 +1,1 @@
+/home/precag/Documents/ros2-ws/build/urg_node_msgs/rosidl_generator_py/urg_node_msgs/msg/_status.py

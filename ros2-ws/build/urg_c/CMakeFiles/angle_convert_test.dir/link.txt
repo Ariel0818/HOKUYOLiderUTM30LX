@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/angle_convert_test.dir/current/samples/angle_convert_test.c.o -o angle_convert_test  -Wl,-rpath,/home/precag/Documents/ros2-ws/build/urg_c libopen_urg_sensor.a liburg_c.so -lrt -lm 

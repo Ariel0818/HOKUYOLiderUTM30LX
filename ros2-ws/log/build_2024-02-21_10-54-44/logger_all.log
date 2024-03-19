@@ -1,0 +1,515 @@
+[3.280s] DEBUG:colcon:Command line arguments: ['/home/precag/anaconda3/bin/colcon', 'build', '--symlink-install']
+[3.281s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f6ec570e4f0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f6ec6def0d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f6ec6def0d0>>)
+[3.393s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.393s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.393s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.393s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.393s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.393s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.393s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/precag/Documents/ros2-ws'
+[3.393s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.393s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.393s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.393s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.393s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.393s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.393s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.393s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.393s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.409s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.409s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.410s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.410s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.410s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.410s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.410s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.410s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.410s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.410s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.410s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.410s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.410s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.410s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.410s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[3.410s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[3.410s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[3.411s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[3.411s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[3.411s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[3.411s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[3.411s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[3.411s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[3.411s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[3.411s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[3.411s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[3.411s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[3.411s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[3.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_proc) by extensions ['ignore', 'ignore_ament_install']
+[3.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_proc) by extension 'ignore'
+[3.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_proc) by extension 'ignore_ament_install'
+[3.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_proc) by extensions ['colcon_pkg']
+[3.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_proc) by extension 'colcon_pkg'
+[3.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_proc) by extensions ['colcon_meta']
+[3.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_proc) by extension 'colcon_meta'
+[3.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_proc) by extensions ['ros']
+[3.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/laser_proc) by extension 'ros'
+[3.414s] DEBUG:colcon.colcon_core.package_identification:Package 'src/laser_proc' with type 'ros.ament_cmake' and name 'laser_proc'
+[3.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_cartographer) by extensions ['ignore', 'ignore_ament_install']
+[3.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_cartographer) by extension 'ignore'
+[3.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_cartographer) by extension 'ignore_ament_install'
+[3.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_cartographer) by extensions ['colcon_pkg']
+[3.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_cartographer) by extension 'colcon_pkg'
+[3.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_cartographer) by extensions ['colcon_meta']
+[3.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_cartographer) by extension 'colcon_meta'
+[3.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_cartographer) by extensions ['ros']
+[3.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_cartographer) by extension 'ros'
+[3.414s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lidar_cartographer' with type 'ros.ament_cmake' and name 'lidar_cartographer'
+[3.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap) by extensions ['ignore', 'ignore_ament_install']
+[3.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap) by extension 'ignore'
+[3.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap) by extension 'ignore_ament_install'
+[3.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap) by extensions ['colcon_pkg']
+[3.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap) by extension 'colcon_pkg'
+[3.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap) by extensions ['colcon_meta']
+[3.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap) by extension 'colcon_meta'
+[3.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap) by extensions ['ros']
+[3.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap) by extension 'ros'
+[3.416s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rtabmap' with type 'ros.cmake' and name 'rtabmap'
+[3.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_c) by extensions ['ignore', 'ignore_ament_install']
+[3.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_c) by extension 'ignore'
+[3.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_c) by extension 'ignore_ament_install'
+[3.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_c) by extensions ['colcon_pkg']
+[3.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_c) by extension 'colcon_pkg'
+[3.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_c) by extensions ['colcon_meta']
+[3.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_c) by extension 'colcon_meta'
+[3.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_c) by extensions ['ros']
+[3.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_c) by extension 'ros'
+[3.417s] DEBUG:colcon.colcon_core.package_identification:Package 'src/urg_c' with type 'ros.ament_cmake' and name 'urg_c'
+[3.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node) by extensions ['ignore', 'ignore_ament_install']
+[3.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node) by extension 'ignore'
+[3.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node) by extension 'ignore_ament_install'
+[3.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node) by extensions ['colcon_pkg']
+[3.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node) by extension 'colcon_pkg'
+[3.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node) by extensions ['colcon_meta']
+[3.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node) by extension 'colcon_meta'
+[3.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node) by extensions ['ros']
+[3.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node) by extension 'ros'
+[3.419s] DEBUG:colcon.colcon_core.package_identification:Package 'src/urg_node' with type 'ros.ament_cmake' and name 'urg_node'
+[3.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node_msgs) by extensions ['ignore', 'ignore_ament_install']
+[3.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node_msgs) by extension 'ignore'
+[3.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node_msgs) by extension 'ignore_ament_install'
+[3.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node_msgs) by extensions ['colcon_pkg']
+[3.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node_msgs) by extension 'colcon_pkg'
+[3.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node_msgs) by extensions ['colcon_meta']
+[3.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node_msgs) by extension 'colcon_meta'
+[3.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node_msgs) by extensions ['ros']
+[3.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node_msgs) by extension 'ros'
+[3.420s] DEBUG:colcon.colcon_core.package_identification:Package 'src/urg_node_msgs' with type 'ros.ament_cmake' and name 'urg_node_msgs'
+[3.420s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.420s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.420s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.420s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.420s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.499s] Level 5:colcon.colcon_core.verb:set package 'laser_proc' build argument 'cmake_args' from command line to 'None'
+[3.499s] Level 5:colcon.colcon_core.verb:set package 'laser_proc' build argument 'cmake_target' from command line to 'None'
+[3.499s] Level 5:colcon.colcon_core.verb:set package 'laser_proc' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.499s] Level 5:colcon.colcon_core.verb:set package 'laser_proc' build argument 'cmake_clean_cache' from command line to 'False'
+[3.499s] Level 5:colcon.colcon_core.verb:set package 'laser_proc' build argument 'cmake_clean_first' from command line to 'False'
+[3.499s] Level 5:colcon.colcon_core.verb:set package 'laser_proc' build argument 'cmake_force_configure' from command line to 'False'
+[3.499s] Level 5:colcon.colcon_core.verb:set package 'laser_proc' build argument 'ament_cmake_args' from command line to 'None'
+[3.499s] Level 5:colcon.colcon_core.verb:set package 'laser_proc' build argument 'catkin_cmake_args' from command line to 'None'
+[3.499s] Level 5:colcon.colcon_core.verb:set package 'laser_proc' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.499s] DEBUG:colcon.colcon_core.verb:Building package 'laser_proc' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/precag/Documents/ros2-ws/build/laser_proc', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/precag/Documents/ros2-ws/install/laser_proc', 'merge_install': False, 'path': '/home/precag/Documents/ros2-ws/src/laser_proc', 'symlink_install': True, 'test_result_base': None}
+[3.516s] Level 5:colcon.colcon_core.verb:set package 'lidar_cartographer' build argument 'cmake_args' from command line to 'None'
+[3.516s] Level 5:colcon.colcon_core.verb:set package 'lidar_cartographer' build argument 'cmake_target' from command line to 'None'
+[3.516s] Level 5:colcon.colcon_core.verb:set package 'lidar_cartographer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.516s] Level 5:colcon.colcon_core.verb:set package 'lidar_cartographer' build argument 'cmake_clean_cache' from command line to 'False'
+[3.516s] Level 5:colcon.colcon_core.verb:set package 'lidar_cartographer' build argument 'cmake_clean_first' from command line to 'False'
+[3.516s] Level 5:colcon.colcon_core.verb:set package 'lidar_cartographer' build argument 'cmake_force_configure' from command line to 'False'
+[3.516s] Level 5:colcon.colcon_core.verb:set package 'lidar_cartographer' build argument 'ament_cmake_args' from command line to 'None'
+[3.516s] Level 5:colcon.colcon_core.verb:set package 'lidar_cartographer' build argument 'catkin_cmake_args' from command line to 'None'
+[3.516s] Level 5:colcon.colcon_core.verb:set package 'lidar_cartographer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.517s] DEBUG:colcon.colcon_core.verb:Building package 'lidar_cartographer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/precag/Documents/ros2-ws/build/lidar_cartographer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/precag/Documents/ros2-ws/install/lidar_cartographer', 'merge_install': False, 'path': '/home/precag/Documents/ros2-ws/src/lidar_cartographer', 'symlink_install': True, 'test_result_base': None}
+[3.532s] Level 5:colcon.colcon_core.verb:set package 'rtabmap' build argument 'cmake_args' from command line to 'None'
+[3.533s] Level 5:colcon.colcon_core.verb:set package 'rtabmap' build argument 'cmake_target' from command line to 'None'
+[3.533s] Level 5:colcon.colcon_core.verb:set package 'rtabmap' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.533s] Level 5:colcon.colcon_core.verb:set package 'rtabmap' build argument 'cmake_clean_cache' from command line to 'False'
+[3.533s] Level 5:colcon.colcon_core.verb:set package 'rtabmap' build argument 'cmake_clean_first' from command line to 'False'
+[3.533s] Level 5:colcon.colcon_core.verb:set package 'rtabmap' build argument 'cmake_force_configure' from command line to 'False'
+[3.533s] Level 5:colcon.colcon_core.verb:set package 'rtabmap' build argument 'ament_cmake_args' from command line to 'None'
+[3.533s] Level 5:colcon.colcon_core.verb:set package 'rtabmap' build argument 'catkin_cmake_args' from command line to 'None'
+[3.533s] Level 5:colcon.colcon_core.verb:set package 'rtabmap' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.533s] DEBUG:colcon.colcon_core.verb:Building package 'rtabmap' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/precag/Documents/ros2-ws/build/rtabmap', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/precag/Documents/ros2-ws/install/rtabmap', 'merge_install': False, 'path': '/home/precag/Documents/ros2-ws/src/rtabmap', 'symlink_install': True, 'test_result_base': None}
+[3.548s] Level 5:colcon.colcon_core.verb:set package 'urg_c' build argument 'cmake_args' from command line to 'None'
+[3.548s] Level 5:colcon.colcon_core.verb:set package 'urg_c' build argument 'cmake_target' from command line to 'None'
+[3.548s] Level 5:colcon.colcon_core.verb:set package 'urg_c' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.548s] Level 5:colcon.colcon_core.verb:set package 'urg_c' build argument 'cmake_clean_cache' from command line to 'False'
+[3.548s] Level 5:colcon.colcon_core.verb:set package 'urg_c' build argument 'cmake_clean_first' from command line to 'False'
+[3.548s] Level 5:colcon.colcon_core.verb:set package 'urg_c' build argument 'cmake_force_configure' from command line to 'False'
+[3.548s] Level 5:colcon.colcon_core.verb:set package 'urg_c' build argument 'ament_cmake_args' from command line to 'None'
+[3.548s] Level 5:colcon.colcon_core.verb:set package 'urg_c' build argument 'catkin_cmake_args' from command line to 'None'
+[3.548s] Level 5:colcon.colcon_core.verb:set package 'urg_c' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.548s] DEBUG:colcon.colcon_core.verb:Building package 'urg_c' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/precag/Documents/ros2-ws/build/urg_c', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/precag/Documents/ros2-ws/install/urg_c', 'merge_install': False, 'path': '/home/precag/Documents/ros2-ws/src/urg_c', 'symlink_install': True, 'test_result_base': None}
+[3.563s] Level 5:colcon.colcon_core.verb:set package 'urg_node_msgs' build argument 'cmake_args' from command line to 'None'
+[3.563s] Level 5:colcon.colcon_core.verb:set package 'urg_node_msgs' build argument 'cmake_target' from command line to 'None'
+[3.563s] Level 5:colcon.colcon_core.verb:set package 'urg_node_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.563s] Level 5:colcon.colcon_core.verb:set package 'urg_node_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[3.563s] Level 5:colcon.colcon_core.verb:set package 'urg_node_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[3.563s] Level 5:colcon.colcon_core.verb:set package 'urg_node_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[3.563s] Level 5:colcon.colcon_core.verb:set package 'urg_node_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[3.563s] Level 5:colcon.colcon_core.verb:set package 'urg_node_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[3.563s] Level 5:colcon.colcon_core.verb:set package 'urg_node_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.563s] DEBUG:colcon.colcon_core.verb:Building package 'urg_node_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/precag/Documents/ros2-ws/build/urg_node_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/precag/Documents/ros2-ws/install/urg_node_msgs', 'merge_install': False, 'path': '/home/precag/Documents/ros2-ws/src/urg_node_msgs', 'symlink_install': True, 'test_result_base': None}
+[3.578s] Level 5:colcon.colcon_core.verb:set package 'urg_node' build argument 'cmake_args' from command line to 'None'
+[3.578s] Level 5:colcon.colcon_core.verb:set package 'urg_node' build argument 'cmake_target' from command line to 'None'
+[3.578s] Level 5:colcon.colcon_core.verb:set package 'urg_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.578s] Level 5:colcon.colcon_core.verb:set package 'urg_node' build argument 'cmake_clean_cache' from command line to 'False'
+[3.578s] Level 5:colcon.colcon_core.verb:set package 'urg_node' build argument 'cmake_clean_first' from command line to 'False'
+[3.578s] Level 5:colcon.colcon_core.verb:set package 'urg_node' build argument 'cmake_force_configure' from command line to 'False'
+[3.579s] Level 5:colcon.colcon_core.verb:set package 'urg_node' build argument 'ament_cmake_args' from command line to 'None'
+[3.579s] Level 5:colcon.colcon_core.verb:set package 'urg_node' build argument 'catkin_cmake_args' from command line to 'None'
+[3.579s] Level 5:colcon.colcon_core.verb:set package 'urg_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.579s] DEBUG:colcon.colcon_core.verb:Building package 'urg_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/precag/Documents/ros2-ws/build/urg_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/precag/Documents/ros2-ws/install/urg_node', 'merge_install': False, 'path': '/home/precag/Documents/ros2-ws/src/urg_node', 'symlink_install': True, 'test_result_base': None}
+[3.593s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.608s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.608s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/precag/Documents/ros2-ws/src/laser_proc' with build type 'ament_cmake'
+[3.609s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/precag/Documents/ros2-ws/src/laser_proc'
+[3.626s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.626s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.626s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.676s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/precag/Documents/ros2-ws/src/urg_c' with build type 'ament_cmake'
+[3.676s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/precag/Documents/ros2-ws/src/urg_c'
+[3.693s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.693s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.744s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/precag/Documents/ros2-ws/src/urg_node_msgs' with build type 'ament_cmake'
+[3.745s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/precag/Documents/ros2-ws/src/urg_node_msgs'
+[3.762s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.762s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.811s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/precag/Documents/ros2-ws/src/lidar_cartographer' with build type 'ament_cmake'
+[3.811s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/precag/Documents/ros2-ws/src/lidar_cartographer'
+[3.828s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.828s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.879s] INFO:colcon.colcon_ros.task.cmake.build:Building ROS package in '/home/precag/Documents/ros2-ws/src/rtabmap' with build type 'cmake'
+[3.880s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/precag/Documents/ros2-ws/src/rtabmap'
+[3.897s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.897s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.954s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/precag/Documents/ros2-ws/build/laser_proc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/precag/Documents/ros2-ws/src/laser_proc -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/precag/Documents/ros2-ws/install/laser_proc
+[3.961s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/precag/Documents/ros2-ws/build/urg_c': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/precag/Documents/ros2-ws/src/urg_c -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/precag/Documents/ros2-ws/install/urg_c
+[3.967s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/precag/Documents/ros2-ws/build/urg_node_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/precag/Documents/ros2-ws/src/urg_node_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/precag/Documents/ros2-ws/install/urg_node_msgs
+[3.974s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/precag/Documents/ros2-ws/build/lidar_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/precag/Documents/ros2-ws/src/lidar_cartographer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/precag/Documents/ros2-ws/install/lidar_cartographer
+[3.983s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/precag/Documents/ros2-ws/build/rtabmap': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/precag/Documents/ros2-ws/build/rtabmap -- -j8 -l8
+[4.295s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/precag/Documents/ros2-ws/build/urg_c' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/precag/Documents/ros2-ws/src/urg_c -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/precag/Documents/ros2-ws/install/urg_c
+[4.299s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/precag/Documents/ros2-ws/build/urg_c': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/precag/Documents/ros2-ws/build/urg_c -- -j8 -l8
+[4.314s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/precag/Documents/ros2-ws/build/lidar_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/precag/Documents/ros2-ws/src/lidar_cartographer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/precag/Documents/ros2-ws/install/lidar_cartographer
+[4.332s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/precag/Documents/ros2-ws/build/lidar_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/precag/Documents/ros2-ws/build/lidar_cartographer -- -j8 -l8
+[4.393s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/precag/Documents/ros2-ws/build/lidar_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/precag/Documents/ros2-ws/build/lidar_cartographer -- -j8 -l8
+[4.542s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/precag/Documents/ros2-ws/build/lidar_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/precag/Documents/ros2-ws/build/lidar_cartographer
+[4.702s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/precag/Documents/ros2-ws/build/urg_c' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/precag/Documents/ros2-ws/build/urg_c -- -j8 -l8
+[4.863s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lidar_cartographer)
+[4.879s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/precag/Documents/ros2-ws/build/lidar_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/precag/Documents/ros2-ws/build/lidar_cartographer
+[4.903s] Level 1:colcon.colcon_core.environment:checking '/home/precag/Documents/ros2-ws/install/lidar_cartographer' for CMake module files
+[4.907s] Level 1:colcon.colcon_core.environment:checking '/home/precag/Documents/ros2-ws/install/lidar_cartographer' for CMake config files
+[4.908s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidar_cartographer', 'cmake_prefix_path')
+[4.943s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/precag/Documents/ros2-ws/install/lidar_cartographer/share/lidar_cartographer/hook/cmake_prefix_path.ps1'
+[4.944s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/precag/Documents/ros2-ws/install/lidar_cartographer/share/lidar_cartographer/hook/cmake_prefix_path.dsv'
+[4.945s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/precag/Documents/ros2-ws/install/lidar_cartographer/share/lidar_cartographer/hook/cmake_prefix_path.sh'
+[4.946s] Level 1:colcon.colcon_core.environment:checking '/home/precag/Documents/ros2-ws/install/lidar_cartographer/bin'
+[4.946s] Level 1:colcon.colcon_core.environment:checking '/home/precag/Documents/ros2-ws/install/lidar_cartographer/lib/pkgconfig/lidar_cartographer.pc'
+[4.951s] Level 1:colcon.colcon_core.environment:checking '/home/precag/Documents/ros2-ws/install/lidar_cartographer/lib/python3.9/site-packages'
+[4.951s] Level 1:colcon.colcon_core.environment:checking '/home/precag/Documents/ros2-ws/install/lidar_cartographer/bin'
+[4.981s] INFO:colcon.colcon_core.shell:Creating package script '/home/precag/Documents/ros2-ws/install/lidar_cartographer/share/lidar_cartographer/package.ps1'
+[4.983s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/precag/Documents/ros2-ws/install/lidar_cartographer/share/lidar_cartographer/package.dsv'
+[4.983s] INFO:colcon.colcon_core.shell:Creating package script '/home/precag/Documents/ros2-ws/install/lidar_cartographer/share/lidar_cartographer/package.sh'
+[4.985s] INFO:colcon.colcon_core.shell:Creating package script '/home/precag/Documents/ros2-ws/install/lidar_cartographer/share/lidar_cartographer/package.bash'
+[4.986s] INFO:colcon.colcon_core.shell:Creating package script '/home/precag/Documents/ros2-ws/install/lidar_cartographer/share/lidar_cartographer/package.zsh'
+[4.987s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/precag/Documents/ros2-ws/install/lidar_cartographer/share/colcon-core/packages/lidar_cartographer)
+[4.999s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/precag/Documents/ros2-ws/build/urg_c': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/precag/Documents/ros2-ws/build/urg_c
+[5.065s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lidar_cartographer)
+[5.089s] Level 1:colcon.colcon_core.environment:checking '/home/precag/Documents/ros2-ws/install/lidar_cartographer' for CMake module files
+[5.090s] Level 1:colcon.colcon_core.environment:checking '/home/precag/Documents/ros2-ws/install/lidar_cartographer' for CMake config files
+[5.090s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidar_cartographer', 'cmake_prefix_path')
+[5.106s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/precag/Documents/ros2-ws/install/lidar_cartographer/share/lidar_cartographer/hook/cmake_prefix_path.ps1'
+[5.107s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/precag/Documents/ros2-ws/install/lidar_cartographer/share/lidar_cartographer/hook/cmake_prefix_path.dsv'
+[5.107s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/precag/Documents/ros2-ws/install/lidar_cartographer/share/lidar_cartographer/hook/cmake_prefix_path.sh'
+[5.108s] Level 1:colcon.colcon_core.environment:checking '/home/precag/Documents/ros2-ws/install/lidar_cartographer/bin'
+[5.108s] Level 1:colcon.colcon_core.environment:checking '/home/precag/Documents/ros2-ws/install/lidar_cartographer/lib/pkgconfig/lidar_cartographer.pc'
+[5.108s] Level 1:colcon.colcon_core.environment:checking '/home/precag/Documents/ros2-ws/install/lidar_cartographer/lib/python3.9/site-packages'
+[5.109s] Level 1:colcon.colcon_core.environment:checking '/home/precag/Documents/ros2-ws/install/lidar_cartographer/bin'
+[5.125s] INFO:colcon.colcon_core.shell:Creating package script '/home/precag/Documents/ros2-ws/install/lidar_cartographer/share/lidar_cartographer/package.ps1'
+[5.126s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/precag/Documents/ros2-ws/install/lidar_cartographer/share/lidar_cartographer/package.dsv'
+[5.126s] INFO:colcon.colcon_core.shell:Creating package script '/home/precag/Documents/ros2-ws/install/lidar_cartographer/share/lidar_cartographer/package.sh'
+[5.126s] INFO:colcon.colcon_core.shell:Creating package script '/home/precag/Documents/ros2-ws/install/lidar_cartographer/share/lidar_cartographer/package.bash'
+[5.127s] INFO:colcon.colcon_core.shell:Creating package script '/home/precag/Documents/ros2-ws/install/lidar_cartographer/share/lidar_cartographer/package.zsh'
+[5.127s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/precag/Documents/ros2-ws/install/lidar_cartographer/share/colcon-core/packages/lidar_cartographer)
+[5.131s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/precag/Documents/ros2-ws/build/rtabmap' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/precag/Documents/ros2-ws/build/rtabmap -- -j8 -l8
+[5.132s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(urg_c)
+[5.133s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/precag/Documents/ros2-ws/build/urg_c' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/precag/Documents/ros2-ws/build/urg_c
+[5.157s] Level 1:colcon.colcon_core.environment:checking '/home/precag/Documents/ros2-ws/install/urg_c' for CMake module files
+[5.158s] Level 1:colcon.colcon_core.environment:checking '/home/precag/Documents/ros2-ws/install/urg_c' for CMake config files
+[5.158s] Level 1:colcon.colcon_core.shell:create_environment_hook('urg_c', 'cmake_prefix_path')
+[5.177s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/hook/cmake_prefix_path.ps1'
+[5.178s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/hook/cmake_prefix_path.dsv'
+[5.178s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/hook/cmake_prefix_path.sh'
+[5.179s] Level 1:colcon.colcon_core.environment:checking '/home/precag/Documents/ros2-ws/install/urg_c/lib'
+[5.179s] Level 1:colcon.colcon_core.shell:create_environment_hook('urg_c', 'ld_library_path_lib')
+[5.197s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/hook/ld_library_path_lib.ps1'
+[5.198s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/hook/ld_library_path_lib.dsv'
+[5.198s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/hook/ld_library_path_lib.sh'
+[5.198s] Level 1:colcon.colcon_core.environment:checking '/home/precag/Documents/ros2-ws/install/urg_c/bin'
+[5.198s] Level 1:colcon.colcon_core.shell:create_environment_hook('urg_c', 'path')
+[5.215s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/hook/path.ps1'
+[5.215s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/hook/path.dsv'
+[5.216s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/hook/path.sh'
+[5.216s] Level 1:colcon.colcon_core.environment:checking '/home/precag/Documents/ros2-ws/install/urg_c/lib/pkgconfig/urg_c.pc'
+[5.216s] Level 1:colcon.colcon_core.environment:checking '/home/precag/Documents/ros2-ws/install/urg_c/lib/python3.9/site-packages'
+[5.217s] Level 1:colcon.colcon_core.environment:checking '/home/precag/Documents/ros2-ws/install/urg_c/bin'
+[5.217s] Level 1:colcon.colcon_core.shell:create_environment_hook('urg_c', 'pythonscriptspath')
+[5.233s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/hook/pythonscriptspath.ps1'
+[5.234s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/hook/pythonscriptspath.dsv'
+[5.234s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/hook/pythonscriptspath.sh'
+[5.251s] INFO:colcon.colcon_core.shell:Creating package script '/home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/package.ps1'
+[5.252s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/package.dsv'
+[5.252s] INFO:colcon.colcon_core.shell:Creating package script '/home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/package.sh'
+[5.253s] INFO:colcon.colcon_core.shell:Creating package script '/home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/package.bash'
+[5.253s] INFO:colcon.colcon_core.shell:Creating package script '/home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/package.zsh'
+[5.253s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/precag/Documents/ros2-ws/install/urg_c/share/colcon-core/packages/urg_c)
+[5.261s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/precag/Documents/ros2-ws/build/rtabmap': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/precag/Documents/ros2-ws/build/rtabmap
+[5.317s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/precag/Documents/ros2-ws/build/rtabmap' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/precag/Documents/ros2-ws/build/rtabmap
+[5.324s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/precag/Documents/ros2-ws/build/laser_proc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/precag/Documents/ros2-ws/src/laser_proc -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/precag/Documents/ros2-ws/install/laser_proc
+[5.328s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/precag/Documents/ros2-ws/build/laser_proc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/precag/Documents/ros2-ws/build/laser_proc -- -j8 -l8
+[5.361s] Level 1:colcon.colcon_core.shell:create_environment_hook('rtabmap', 'pkg_config_path')
+[5.386s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/precag/Documents/ros2-ws/install/rtabmap/share/rtabmap/hook/pkg_config_path.ps1'
+[5.387s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/precag/Documents/ros2-ws/install/rtabmap/share/rtabmap/hook/pkg_config_path.dsv'
+[5.387s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/precag/Documents/ros2-ws/install/rtabmap/share/rtabmap/hook/pkg_config_path.sh'
+[5.393s] Level 1:colcon.colcon_core.shell:create_environment_hook('rtabmap', 'pkg_config_path_multiarch')
+[5.441s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/precag/Documents/ros2-ws/install/rtabmap/share/rtabmap/hook/pkg_config_path_multiarch.ps1'
+[5.441s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/precag/Documents/ros2-ws/install/rtabmap/share/rtabmap/hook/pkg_config_path_multiarch.dsv'
+[5.442s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/precag/Documents/ros2-ws/install/rtabmap/share/rtabmap/hook/pkg_config_path_multiarch.sh'
+[5.443s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rtabmap)
+[5.466s] Level 1:colcon.colcon_core.environment:checking '/home/precag/Documents/ros2-ws/install/rtabmap' for CMake module files
+[5.466s] Level 1:colcon.colcon_core.environment:checking '/home/precag/Documents/ros2-ws/install/rtabmap' for CMake config files
+[5.466s] Level 1:colcon.colcon_core.shell:create_environment_hook('rtabmap', 'cmake_prefix_path')
+[5.482s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/precag/Documents/ros2-ws/install/rtabmap/share/rtabmap/hook/cmake_prefix_path.ps1'
+[5.483s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/precag/Documents/ros2-ws/install/rtabmap/share/rtabmap/hook/cmake_prefix_path.dsv'
+[5.483s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/precag/Documents/ros2-ws/install/rtabmap/share/rtabmap/hook/cmake_prefix_path.sh'
+[5.484s] Level 1:colcon.colcon_core.environment:checking '/home/precag/Documents/ros2-ws/install/rtabmap/lib'
+[5.484s] Level 1:colcon.colcon_core.shell:create_environment_hook('rtabmap', 'ld_library_path_lib')
+[5.503s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/precag/Documents/ros2-ws/install/rtabmap/share/rtabmap/hook/ld_library_path_lib.ps1'
+[5.503s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/precag/Documents/ros2-ws/install/rtabmap/share/rtabmap/hook/ld_library_path_lib.dsv'
+[5.503s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/precag/Documents/ros2-ws/install/rtabmap/share/rtabmap/hook/ld_library_path_lib.sh'
+[5.504s] Level 1:colcon.colcon_core.environment:checking '/home/precag/Documents/ros2-ws/install/rtabmap/bin'
+[5.504s] Level 1:colcon.colcon_core.shell:create_environment_hook('rtabmap', 'path')
+[5.522s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/precag/Documents/ros2-ws/install/rtabmap/share/rtabmap/hook/path.ps1'
+[5.522s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/precag/Documents/ros2-ws/install/rtabmap/share/rtabmap/hook/path.dsv'
+[5.522s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/precag/Documents/ros2-ws/install/rtabmap/share/rtabmap/hook/path.sh'
+[5.523s] Level 1:colcon.colcon_core.environment:checking '/home/precag/Documents/ros2-ws/install/rtabmap/lib/pkgconfig/rtabmap.pc'
+[5.524s] Level 1:colcon.colcon_core.environment:checking '/home/precag/Documents/ros2-ws/install/rtabmap/lib/python3.9/site-packages'
+[5.524s] Level 1:colcon.colcon_core.environment:checking '/home/precag/Documents/ros2-ws/install/rtabmap/bin'
+[5.524s] Level 1:colcon.colcon_core.shell:create_environment_hook('rtabmap', 'pythonscriptspath')
+[5.543s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/precag/Documents/ros2-ws/install/rtabmap/share/rtabmap/hook/pythonscriptspath.ps1'
+[5.544s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/precag/Documents/ros2-ws/install/rtabmap/share/rtabmap/hook/pythonscriptspath.dsv'
+[5.544s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/precag/Documents/ros2-ws/install/rtabmap/share/rtabmap/hook/pythonscriptspath.sh'
+[5.561s] INFO:colcon.colcon_core.shell:Creating package script '/home/precag/Documents/ros2-ws/install/rtabmap/share/rtabmap/package.ps1'
+[5.561s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/precag/Documents/ros2-ws/install/rtabmap/share/rtabmap/package.dsv'
+[5.562s] INFO:colcon.colcon_core.shell:Creating package script '/home/precag/Documents/ros2-ws/install/rtabmap/share/rtabmap/package.sh'
+[5.563s] INFO:colcon.colcon_core.shell:Creating package script '/home/precag/Documents/ros2-ws/install/rtabmap/share/rtabmap/package.bash'
+[5.563s] INFO:colcon.colcon_core.shell:Creating package script '/home/precag/Documents/ros2-ws/install/rtabmap/share/rtabmap/package.zsh'
+[5.564s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/precag/Documents/ros2-ws/install/rtabmap/share/colcon-core/packages/rtabmap)
+[5.586s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(urg_c)
+[5.618s] Level 1:colcon.colcon_core.environment:checking '/home/precag/Documents/ros2-ws/install/urg_c' for CMake module files
+[5.619s] Level 1:colcon.colcon_core.environment:checking '/home/precag/Documents/ros2-ws/install/urg_c' for CMake config files
+[5.620s] Level 1:colcon.colcon_core.shell:create_environment_hook('urg_c', 'cmake_prefix_path')
+[5.641s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/hook/cmake_prefix_path.ps1'
+[5.641s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/hook/cmake_prefix_path.dsv'
+[5.641s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/hook/cmake_prefix_path.sh'
+[5.642s] Level 1:colcon.colcon_core.environment:checking '/home/precag/Documents/ros2-ws/install/urg_c/lib'
+[5.642s] Level 1:colcon.colcon_core.shell:create_environment_hook('urg_c', 'ld_library_path_lib')
+[5.658s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/hook/ld_library_path_lib.ps1'
+[5.658s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/hook/ld_library_path_lib.dsv'
+[5.659s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/hook/ld_library_path_lib.sh'
+[5.659s] Level 1:colcon.colcon_core.environment:checking '/home/precag/Documents/ros2-ws/install/urg_c/bin'
+[5.659s] Level 1:colcon.colcon_core.shell:create_environment_hook('urg_c', 'path')
+[5.675s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/hook/path.ps1'
+[5.675s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/hook/path.dsv'
+[5.676s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/hook/path.sh'
+[5.676s] Level 1:colcon.colcon_core.environment:checking '/home/precag/Documents/ros2-ws/install/urg_c/lib/pkgconfig/urg_c.pc'
+[5.676s] Level 1:colcon.colcon_core.environment:checking '/home/precag/Documents/ros2-ws/install/urg_c/lib/python3.9/site-packages'
+[5.677s] Level 1:colcon.colcon_core.environment:checking '/home/precag/Documents/ros2-ws/install/urg_c/bin'
+[5.677s] Level 1:colcon.colcon_core.shell:create_environment_hook('urg_c', 'pythonscriptspath')
+[5.692s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/hook/pythonscriptspath.ps1'
+[5.693s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/hook/pythonscriptspath.dsv'
+[5.693s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/hook/pythonscriptspath.sh'
+[5.709s] INFO:colcon.colcon_core.shell:Creating package script '/home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/package.ps1'
+[5.710s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/package.dsv'
+[5.710s] INFO:colcon.colcon_core.shell:Creating package script '/home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/package.sh'
+[5.710s] INFO:colcon.colcon_core.shell:Creating package script '/home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/package.bash'
+[5.711s] INFO:colcon.colcon_core.shell:Creating package script '/home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/package.zsh'
+[5.711s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/precag/Documents/ros2-ws/install/urg_c/share/colcon-core/packages/urg_c)
+[5.715s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/precag/Documents/ros2-ws/build/laser_proc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/precag/Documents/ros2-ws/build/laser_proc -- -j8 -l8
+[5.753s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/precag/Documents/ros2-ws/build/laser_proc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/precag/Documents/ros2-ws/build/laser_proc
+[5.780s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(laser_proc)
+[5.781s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/precag/Documents/ros2-ws/build/laser_proc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/precag/Documents/ros2-ws/build/laser_proc
+[5.798s] Level 1:colcon.colcon_core.environment:checking '/home/precag/Documents/ros2-ws/install/laser_proc' for CMake module files
+[5.798s] Level 1:colcon.colcon_core.environment:checking '/home/precag/Documents/ros2-ws/install/laser_proc' for CMake config files
+[5.799s] Level 1:colcon.colcon_core.shell:create_environment_hook('laser_proc', 'cmake_prefix_path')
+[5.816s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/precag/Documents/ros2-ws/install/laser_proc/share/laser_proc/hook/cmake_prefix_path.ps1'
+[5.816s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/precag/Documents/ros2-ws/install/laser_proc/share/laser_proc/hook/cmake_prefix_path.dsv'
+[5.816s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/precag/Documents/ros2-ws/install/laser_proc/share/laser_proc/hook/cmake_prefix_path.sh'
+[5.817s] Level 1:colcon.colcon_core.environment:checking '/home/precag/Documents/ros2-ws/install/laser_proc/lib'
+[5.817s] Level 1:colcon.colcon_core.shell:create_environment_hook('laser_proc', 'ld_library_path_lib')
+[5.835s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/precag/Documents/ros2-ws/install/laser_proc/share/laser_proc/hook/ld_library_path_lib.ps1'
+[5.835s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/precag/Documents/ros2-ws/install/laser_proc/share/laser_proc/hook/ld_library_path_lib.dsv'
+[5.835s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/precag/Documents/ros2-ws/install/laser_proc/share/laser_proc/hook/ld_library_path_lib.sh'
+[5.836s] Level 1:colcon.colcon_core.environment:checking '/home/precag/Documents/ros2-ws/install/laser_proc/bin'
+[5.836s] Level 1:colcon.colcon_core.environment:checking '/home/precag/Documents/ros2-ws/install/laser_proc/lib/pkgconfig/laser_proc.pc'
+[5.837s] Level 1:colcon.colcon_core.environment:checking '/home/precag/Documents/ros2-ws/install/laser_proc/lib/python3.9/site-packages'
+[5.837s] Level 1:colcon.colcon_core.environment:checking '/home/precag/Documents/ros2-ws/install/laser_proc/bin'
+[5.856s] INFO:colcon.colcon_core.shell:Creating package script '/home/precag/Documents/ros2-ws/install/laser_proc/share/laser_proc/package.ps1'
+[5.856s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/precag/Documents/ros2-ws/install/laser_proc/share/laser_proc/package.dsv'
+[5.857s] INFO:colcon.colcon_core.shell:Creating package script '/home/precag/Documents/ros2-ws/install/laser_proc/share/laser_proc/package.sh'
+[5.857s] INFO:colcon.colcon_core.shell:Creating package script '/home/precag/Documents/ros2-ws/install/laser_proc/share/laser_proc/package.bash'
+[5.857s] INFO:colcon.colcon_core.shell:Creating package script '/home/precag/Documents/ros2-ws/install/laser_proc/share/laser_proc/package.zsh'
+[5.858s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/precag/Documents/ros2-ws/install/laser_proc/share/colcon-core/packages/laser_proc)
+[5.864s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/precag/Documents/ros2-ws/build/urg_node_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/precag/Documents/ros2-ws/src/urg_node_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/precag/Documents/ros2-ws/install/urg_node_msgs
+[5.868s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/precag/Documents/ros2-ws/build/urg_node_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/precag/Documents/ros2-ws/build/urg_node_msgs -- -j8 -l8
+[5.922s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(laser_proc)
+[5.954s] Level 1:colcon.colcon_core.environment:checking '/home/precag/Documents/ros2-ws/install/laser_proc' for CMake module files
+[5.955s] Level 1:colcon.colcon_core.environment:checking '/home/precag/Documents/ros2-ws/install/laser_proc' for CMake config files
+[5.956s] Level 1:colcon.colcon_core.shell:create_environment_hook('laser_proc', 'cmake_prefix_path')
+[5.981s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/precag/Documents/ros2-ws/install/laser_proc/share/laser_proc/hook/cmake_prefix_path.ps1'
+[5.982s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/precag/Documents/ros2-ws/install/laser_proc/share/laser_proc/hook/cmake_prefix_path.dsv'
+[5.982s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/precag/Documents/ros2-ws/install/laser_proc/share/laser_proc/hook/cmake_prefix_path.sh'
+[5.983s] Level 1:colcon.colcon_core.environment:checking '/home/precag/Documents/ros2-ws/install/laser_proc/lib'
+[5.983s] Level 1:colcon.colcon_core.shell:create_environment_hook('laser_proc', 'ld_library_path_lib')
+[6.002s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/precag/Documents/ros2-ws/install/laser_proc/share/laser_proc/hook/ld_library_path_lib.ps1'
+[6.003s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/precag/Documents/ros2-ws/install/laser_proc/share/laser_proc/hook/ld_library_path_lib.dsv'
+[6.003s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/precag/Documents/ros2-ws/install/laser_proc/share/laser_proc/hook/ld_library_path_lib.sh'
+[6.004s] Level 1:colcon.colcon_core.environment:checking '/home/precag/Documents/ros2-ws/install/laser_proc/bin'
+[6.004s] Level 1:colcon.colcon_core.environment:checking '/home/precag/Documents/ros2-ws/install/laser_proc/lib/pkgconfig/laser_proc.pc'
+[6.004s] Level 1:colcon.colcon_core.environment:checking '/home/precag/Documents/ros2-ws/install/laser_proc/lib/python3.9/site-packages'
+[6.005s] Level 1:colcon.colcon_core.environment:checking '/home/precag/Documents/ros2-ws/install/laser_proc/bin'
+[6.022s] INFO:colcon.colcon_core.shell:Creating package script '/home/precag/Documents/ros2-ws/install/laser_proc/share/laser_proc/package.ps1'
+[6.023s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/precag/Documents/ros2-ws/install/laser_proc/share/laser_proc/package.dsv'
+[6.023s] INFO:colcon.colcon_core.shell:Creating package script '/home/precag/Documents/ros2-ws/install/laser_proc/share/laser_proc/package.sh'
+[6.023s] INFO:colcon.colcon_core.shell:Creating package script '/home/precag/Documents/ros2-ws/install/laser_proc/share/laser_proc/package.bash'
+[6.024s] INFO:colcon.colcon_core.shell:Creating package script '/home/precag/Documents/ros2-ws/install/laser_proc/share/laser_proc/package.zsh'
+[6.024s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/precag/Documents/ros2-ws/install/laser_proc/share/colcon-core/packages/laser_proc)
+[6.265s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/precag/Documents/ros2-ws/build/urg_node_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/precag/Documents/ros2-ws/build/urg_node_msgs -- -j8 -l8
+[6.334s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/precag/Documents/ros2-ws/build/urg_node_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/precag/Documents/ros2-ws/build/urg_node_msgs
+[6.406s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(urg_node_msgs)
+[6.406s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/precag/Documents/ros2-ws/build/urg_node_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/precag/Documents/ros2-ws/build/urg_node_msgs
+[6.422s] Level 1:colcon.colcon_core.environment:checking '/home/precag/Documents/ros2-ws/install/urg_node_msgs' for CMake module files
+[6.423s] Level 1:colcon.colcon_core.environment:checking '/home/precag/Documents/ros2-ws/install/urg_node_msgs' for CMake config files
+[6.424s] Level 1:colcon.colcon_core.shell:create_environment_hook('urg_node_msgs', 'cmake_prefix_path')
+[6.440s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/precag/Documents/ros2-ws/install/urg_node_msgs/share/urg_node_msgs/hook/cmake_prefix_path.ps1'
+[6.440s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/precag/Documents/ros2-ws/install/urg_node_msgs/share/urg_node_msgs/hook/cmake_prefix_path.dsv'
+[6.440s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/precag/Documents/ros2-ws/install/urg_node_msgs/share/urg_node_msgs/hook/cmake_prefix_path.sh'
+[6.441s] Level 1:colcon.colcon_core.environment:checking '/home/precag/Documents/ros2-ws/install/urg_node_msgs/lib'
+[6.441s] Level 1:colcon.colcon_core.shell:create_environment_hook('urg_node_msgs', 'ld_library_path_lib')
+[6.456s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/precag/Documents/ros2-ws/install/urg_node_msgs/share/urg_node_msgs/hook/ld_library_path_lib.ps1'
+[6.457s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/precag/Documents/ros2-ws/install/urg_node_msgs/share/urg_node_msgs/hook/ld_library_path_lib.dsv'
+[6.457s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/precag/Documents/ros2-ws/install/urg_node_msgs/share/urg_node_msgs/hook/ld_library_path_lib.sh'
+[6.457s] Level 1:colcon.colcon_core.environment:checking '/home/precag/Documents/ros2-ws/install/urg_node_msgs/bin'
+[6.457s] Level 1:colcon.colcon_core.environment:checking '/home/precag/Documents/ros2-ws/install/urg_node_msgs/lib/pkgconfig/urg_node_msgs.pc'
+[6.458s] Level 1:colcon.colcon_core.environment:checking '/home/precag/Documents/ros2-ws/install/urg_node_msgs/lib/python3.9/site-packages'
+[6.458s] Level 1:colcon.colcon_core.environment:checking '/home/precag/Documents/ros2-ws/install/urg_node_msgs/bin'
+[6.474s] INFO:colcon.colcon_core.shell:Creating package script '/home/precag/Documents/ros2-ws/install/urg_node_msgs/share/urg_node_msgs/package.ps1'
+[6.474s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/precag/Documents/ros2-ws/install/urg_node_msgs/share/urg_node_msgs/package.dsv'
+[6.474s] INFO:colcon.colcon_core.shell:Creating package script '/home/precag/Documents/ros2-ws/install/urg_node_msgs/share/urg_node_msgs/package.sh'
+[6.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/precag/Documents/ros2-ws/install/urg_node_msgs/share/urg_node_msgs/package.bash'
+[6.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/precag/Documents/ros2-ws/install/urg_node_msgs/share/urg_node_msgs/package.zsh'
+[6.475s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/precag/Documents/ros2-ws/install/urg_node_msgs/share/colcon-core/packages/urg_node_msgs)
+[6.555s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(urg_node_msgs)
+[6.571s] Level 1:colcon.colcon_core.environment:checking '/home/precag/Documents/ros2-ws/install/urg_node_msgs' for CMake module files
+[6.571s] Level 1:colcon.colcon_core.environment:checking '/home/precag/Documents/ros2-ws/install/urg_node_msgs' for CMake config files
+[6.572s] Level 1:colcon.colcon_core.shell:create_environment_hook('urg_node_msgs', 'cmake_prefix_path')
+[6.588s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/precag/Documents/ros2-ws/install/urg_node_msgs/share/urg_node_msgs/hook/cmake_prefix_path.ps1'
+[6.588s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/precag/Documents/ros2-ws/install/urg_node_msgs/share/urg_node_msgs/hook/cmake_prefix_path.dsv'
+[6.589s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/precag/Documents/ros2-ws/install/urg_node_msgs/share/urg_node_msgs/hook/cmake_prefix_path.sh'
+[6.589s] Level 1:colcon.colcon_core.environment:checking '/home/precag/Documents/ros2-ws/install/urg_node_msgs/lib'
+[6.589s] Level 1:colcon.colcon_core.shell:create_environment_hook('urg_node_msgs', 'ld_library_path_lib')
+[6.616s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/precag/Documents/ros2-ws/install/urg_node_msgs/share/urg_node_msgs/hook/ld_library_path_lib.ps1'
+[6.617s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/precag/Documents/ros2-ws/install/urg_node_msgs/share/urg_node_msgs/hook/ld_library_path_lib.dsv'
+[6.617s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/precag/Documents/ros2-ws/install/urg_node_msgs/share/urg_node_msgs/hook/ld_library_path_lib.sh'
+[6.618s] Level 1:colcon.colcon_core.environment:checking '/home/precag/Documents/ros2-ws/install/urg_node_msgs/bin'
+[6.618s] Level 1:colcon.colcon_core.environment:checking '/home/precag/Documents/ros2-ws/install/urg_node_msgs/lib/pkgconfig/urg_node_msgs.pc'
+[6.619s] Level 1:colcon.colcon_core.environment:checking '/home/precag/Documents/ros2-ws/install/urg_node_msgs/lib/python3.9/site-packages'
+[6.619s] Level 1:colcon.colcon_core.environment:checking '/home/precag/Documents/ros2-ws/install/urg_node_msgs/bin'
+[6.641s] INFO:colcon.colcon_core.shell:Creating package script '/home/precag/Documents/ros2-ws/install/urg_node_msgs/share/urg_node_msgs/package.ps1'
+[6.641s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/precag/Documents/ros2-ws/install/urg_node_msgs/share/urg_node_msgs/package.dsv'
+[6.642s] INFO:colcon.colcon_core.shell:Creating package script '/home/precag/Documents/ros2-ws/install/urg_node_msgs/share/urg_node_msgs/package.sh'
+[6.642s] INFO:colcon.colcon_core.shell:Creating package script '/home/precag/Documents/ros2-ws/install/urg_node_msgs/share/urg_node_msgs/package.bash'
+[6.643s] INFO:colcon.colcon_core.shell:Creating package script '/home/precag/Documents/ros2-ws/install/urg_node_msgs/share/urg_node_msgs/package.zsh'
+[6.643s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/precag/Documents/ros2-ws/install/urg_node_msgs/share/colcon-core/packages/urg_node_msgs)
+[6.643s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/precag/Documents/ros2-ws/src/urg_node' with build type 'ament_cmake'
+[6.644s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/precag/Documents/ros2-ws/src/urg_node'
+[6.660s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.660s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.727s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/precag/Documents/ros2-ws/build/urg_node': CMAKE_PREFIX_PATH=/home/precag/Documents/ros2-ws/install/urg_node_msgs:/home/precag/Documents/ros2-ws/install/urg_c:/home/precag/Documents/ros2-ws/install/laser_proc:/home/precag/Documents/ros2-ws/install/urg_node:/home/precag/Documents/ros2-ws/install/rtabmap:/home/precag/Documents/ros2-ws/install/lidar_cartographer:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/precag/Documents/ros2-ws/install/urg_node_msgs/lib:/home/precag/Documents/ros2-ws/install/urg_c/lib:/home/precag/Documents/ros2-ws/install/laser_proc/lib:/home/precag/Documents/ros2-ws/install/urg_node/lib:/home/precag/Documents/ros2-ws/install/rtabmap/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 /usr/bin/cmake /home/precag/Documents/ros2-ws/src/urg_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/precag/Documents/ros2-ws/install/urg_node
+[7.739s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/precag/Documents/ros2-ws/build/urg_node' returned '0': CMAKE_PREFIX_PATH=/home/precag/Documents/ros2-ws/install/urg_node_msgs:/home/precag/Documents/ros2-ws/install/urg_c:/home/precag/Documents/ros2-ws/install/laser_proc:/home/precag/Documents/ros2-ws/install/urg_node:/home/precag/Documents/ros2-ws/install/rtabmap:/home/precag/Documents/ros2-ws/install/lidar_cartographer:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/precag/Documents/ros2-ws/install/urg_node_msgs/lib:/home/precag/Documents/ros2-ws/install/urg_c/lib:/home/precag/Documents/ros2-ws/install/laser_proc/lib:/home/precag/Documents/ros2-ws/install/urg_node/lib:/home/precag/Documents/ros2-ws/install/rtabmap/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 /usr/bin/cmake /home/precag/Documents/ros2-ws/src/urg_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/precag/Documents/ros2-ws/install/urg_node
+[7.742s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/precag/Documents/ros2-ws/build/urg_node': CMAKE_PREFIX_PATH=/home/precag/Documents/ros2-ws/install/urg_node_msgs:/home/precag/Documents/ros2-ws/install/urg_c:/home/precag/Documents/ros2-ws/install/laser_proc:/home/precag/Documents/ros2-ws/install/urg_node:/home/precag/Documents/ros2-ws/install/rtabmap:/home/precag/Documents/ros2-ws/install/lidar_cartographer:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/precag/Documents/ros2-ws/install/urg_node_msgs/lib:/home/precag/Documents/ros2-ws/install/urg_c/lib:/home/precag/Documents/ros2-ws/install/laser_proc/lib:/home/precag/Documents/ros2-ws/install/urg_node/lib:/home/precag/Documents/ros2-ws/install/rtabmap/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 /usr/bin/cmake --build /home/precag/Documents/ros2-ws/build/urg_node -- -j8 -l8
+[7.844s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/precag/Documents/ros2-ws/build/urg_node' returned '0': CMAKE_PREFIX_PATH=/home/precag/Documents/ros2-ws/install/urg_node_msgs:/home/precag/Documents/ros2-ws/install/urg_c:/home/precag/Documents/ros2-ws/install/laser_proc:/home/precag/Documents/ros2-ws/install/urg_node:/home/precag/Documents/ros2-ws/install/rtabmap:/home/precag/Documents/ros2-ws/install/lidar_cartographer:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/precag/Documents/ros2-ws/install/urg_node_msgs/lib:/home/precag/Documents/ros2-ws/install/urg_c/lib:/home/precag/Documents/ros2-ws/install/laser_proc/lib:/home/precag/Documents/ros2-ws/install/urg_node/lib:/home/precag/Documents/ros2-ws/install/rtabmap/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 /usr/bin/cmake --build /home/precag/Documents/ros2-ws/build/urg_node -- -j8 -l8
+[7.883s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/precag/Documents/ros2-ws/build/urg_node': CMAKE_PREFIX_PATH=/home/precag/Documents/ros2-ws/install/urg_node_msgs:/home/precag/Documents/ros2-ws/install/urg_c:/home/precag/Documents/ros2-ws/install/laser_proc:/home/precag/Documents/ros2-ws/install/urg_node:/home/precag/Documents/ros2-ws/install/rtabmap:/home/precag/Documents/ros2-ws/install/lidar_cartographer:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/precag/Documents/ros2-ws/install/urg_node_msgs/lib:/home/precag/Documents/ros2-ws/install/urg_c/lib:/home/precag/Documents/ros2-ws/install/laser_proc/lib:/home/precag/Documents/ros2-ws/install/urg_node/lib:/home/precag/Documents/ros2-ws/install/rtabmap/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 /usr/bin/cmake --install /home/precag/Documents/ros2-ws/build/urg_node
+[7.907s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(urg_node)
+[7.908s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/precag/Documents/ros2-ws/build/urg_node' returned '0': CMAKE_PREFIX_PATH=/home/precag/Documents/ros2-ws/install/urg_node_msgs:/home/precag/Documents/ros2-ws/install/urg_c:/home/precag/Documents/ros2-ws/install/laser_proc:/home/precag/Documents/ros2-ws/install/urg_node:/home/precag/Documents/ros2-ws/install/rtabmap:/home/precag/Documents/ros2-ws/install/lidar_cartographer:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/precag/Documents/ros2-ws/install/urg_node_msgs/lib:/home/precag/Documents/ros2-ws/install/urg_c/lib:/home/precag/Documents/ros2-ws/install/laser_proc/lib:/home/precag/Documents/ros2-ws/install/urg_node/lib:/home/precag/Documents/ros2-ws/install/rtabmap/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 /usr/bin/cmake --install /home/precag/Documents/ros2-ws/build/urg_node
+[7.924s] Level 1:colcon.colcon_core.environment:checking '/home/precag/Documents/ros2-ws/install/urg_node' for CMake module files
+[7.925s] Level 1:colcon.colcon_core.environment:checking '/home/precag/Documents/ros2-ws/install/urg_node' for CMake config files
+[7.925s] Level 1:colcon.colcon_core.shell:create_environment_hook('urg_node', 'cmake_prefix_path')
+[7.941s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/precag/Documents/ros2-ws/install/urg_node/share/urg_node/hook/cmake_prefix_path.ps1'
+[7.941s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/precag/Documents/ros2-ws/install/urg_node/share/urg_node/hook/cmake_prefix_path.dsv'
+[7.942s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/precag/Documents/ros2-ws/install/urg_node/share/urg_node/hook/cmake_prefix_path.sh'
+[7.942s] Level 1:colcon.colcon_core.environment:checking '/home/precag/Documents/ros2-ws/install/urg_node/lib'
+[7.942s] Level 1:colcon.colcon_core.shell:create_environment_hook('urg_node', 'ld_library_path_lib')
+[7.957s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/precag/Documents/ros2-ws/install/urg_node/share/urg_node/hook/ld_library_path_lib.ps1'
+[7.958s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/precag/Documents/ros2-ws/install/urg_node/share/urg_node/hook/ld_library_path_lib.dsv'
+[7.958s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/precag/Documents/ros2-ws/install/urg_node/share/urg_node/hook/ld_library_path_lib.sh'
+[7.958s] Level 1:colcon.colcon_core.environment:checking '/home/precag/Documents/ros2-ws/install/urg_node/bin'
+[7.958s] Level 1:colcon.colcon_core.environment:checking '/home/precag/Documents/ros2-ws/install/urg_node/lib/pkgconfig/urg_node.pc'
+[7.959s] Level 1:colcon.colcon_core.environment:checking '/home/precag/Documents/ros2-ws/install/urg_node/lib/python3.9/site-packages'
+[7.959s] Level 1:colcon.colcon_core.environment:checking '/home/precag/Documents/ros2-ws/install/urg_node/bin'
+[7.974s] INFO:colcon.colcon_core.shell:Creating package script '/home/precag/Documents/ros2-ws/install/urg_node/share/urg_node/package.ps1'
+[7.975s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/precag/Documents/ros2-ws/install/urg_node/share/urg_node/package.dsv'
+[7.976s] INFO:colcon.colcon_core.shell:Creating package script '/home/precag/Documents/ros2-ws/install/urg_node/share/urg_node/package.sh'
+[7.976s] INFO:colcon.colcon_core.shell:Creating package script '/home/precag/Documents/ros2-ws/install/urg_node/share/urg_node/package.bash'
+[7.976s] INFO:colcon.colcon_core.shell:Creating package script '/home/precag/Documents/ros2-ws/install/urg_node/share/urg_node/package.zsh'
+[7.977s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/precag/Documents/ros2-ws/install/urg_node/share/colcon-core/packages/urg_node)
+[8.028s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(urg_node)
+[8.044s] Level 1:colcon.colcon_core.environment:checking '/home/precag/Documents/ros2-ws/install/urg_node' for CMake module files
+[8.044s] Level 1:colcon.colcon_core.environment:checking '/home/precag/Documents/ros2-ws/install/urg_node' for CMake config files
+[8.045s] Level 1:colcon.colcon_core.shell:create_environment_hook('urg_node', 'cmake_prefix_path')
+[8.060s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/precag/Documents/ros2-ws/install/urg_node/share/urg_node/hook/cmake_prefix_path.ps1'
+[8.060s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/precag/Documents/ros2-ws/install/urg_node/share/urg_node/hook/cmake_prefix_path.dsv'
+[8.061s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/precag/Documents/ros2-ws/install/urg_node/share/urg_node/hook/cmake_prefix_path.sh'
+[8.061s] Level 1:colcon.colcon_core.environment:checking '/home/precag/Documents/ros2-ws/install/urg_node/lib'
+[8.061s] Level 1:colcon.colcon_core.shell:create_environment_hook('urg_node', 'ld_library_path_lib')
+[8.077s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/precag/Documents/ros2-ws/install/urg_node/share/urg_node/hook/ld_library_path_lib.ps1'
+[8.077s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/precag/Documents/ros2-ws/install/urg_node/share/urg_node/hook/ld_library_path_lib.dsv'
+[8.077s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/precag/Documents/ros2-ws/install/urg_node/share/urg_node/hook/ld_library_path_lib.sh'
+[8.078s] Level 1:colcon.colcon_core.environment:checking '/home/precag/Documents/ros2-ws/install/urg_node/bin'
+[8.078s] Level 1:colcon.colcon_core.environment:checking '/home/precag/Documents/ros2-ws/install/urg_node/lib/pkgconfig/urg_node.pc'
+[8.078s] Level 1:colcon.colcon_core.environment:checking '/home/precag/Documents/ros2-ws/install/urg_node/lib/python3.9/site-packages'
+[8.078s] Level 1:colcon.colcon_core.environment:checking '/home/precag/Documents/ros2-ws/install/urg_node/bin'
+[8.094s] INFO:colcon.colcon_core.shell:Creating package script '/home/precag/Documents/ros2-ws/install/urg_node/share/urg_node/package.ps1'
+[8.094s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/precag/Documents/ros2-ws/install/urg_node/share/urg_node/package.dsv'
+[8.095s] INFO:colcon.colcon_core.shell:Creating package script '/home/precag/Documents/ros2-ws/install/urg_node/share/urg_node/package.sh'
+[8.095s] INFO:colcon.colcon_core.shell:Creating package script '/home/precag/Documents/ros2-ws/install/urg_node/share/urg_node/package.bash'
+[8.095s] INFO:colcon.colcon_core.shell:Creating package script '/home/precag/Documents/ros2-ws/install/urg_node/share/urg_node/package.zsh'
+[8.096s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/precag/Documents/ros2-ws/install/urg_node/share/colcon-core/packages/urg_node)
+[8.096s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[8.097s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[8.097s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[8.097s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[8.115s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify2': 'notify2' not found
+[8.115s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[8.115s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[8.115s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify_send'
+[8.134s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[8.152s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/precag/Documents/ros2-ws/install/local_setup.ps1'
+[8.153s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/precag/Documents/ros2-ws/install/_local_setup_util_ps1.py'
+[8.154s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/precag/Documents/ros2-ws/install/setup.ps1'
+[8.171s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/precag/Documents/ros2-ws/install/local_setup.sh'
+[8.171s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/precag/Documents/ros2-ws/install/_local_setup_util_sh.py'
+[8.172s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/precag/Documents/ros2-ws/install/setup.sh'
+[8.188s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/precag/Documents/ros2-ws/install/local_setup.bash'
+[8.188s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/precag/Documents/ros2-ws/install/setup.bash'
+[8.205s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/precag/Documents/ros2-ws/install/local_setup.zsh'
+[8.205s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/precag/Documents/ros2-ws/install/setup.zsh'

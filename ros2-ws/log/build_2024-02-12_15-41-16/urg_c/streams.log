@@ -1,0 +1,116 @@
+[0.168s] Invoking command in '/home/precag/Documents/ros2-ws/build/urg_c': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/precag/Documents/ros2-ws/src/urg_c -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/precag/Documents/ros2-ws/install/urg_c
+[0.402s] -- The C compiler identification is GNU 11.4.0
+[0.524s] -- The CXX compiler identification is GNU 11.4.0
+[0.538s] -- Detecting C compiler ABI info
+[0.617s] -- Detecting C compiler ABI info - done
+[0.631s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.631s] -- Detecting C compile features
+[0.632s] -- Detecting C compile features - done
+[0.637s] -- Detecting CXX compiler ABI info
+[0.741s] -- Detecting CXX compiler ABI info - done
+[0.755s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.755s] -- Detecting CXX compile features
+[0.756s] -- Detecting CXX compile features - done
+[0.758s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.980s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.078s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.233s] -- Configuring done
+[1.252s] -- Generating done
+[1.255s] -- Build files have been written to: /home/precag/Documents/ros2-ws/build/urg_c
+[1.261s] Invoked command in '/home/precag/Documents/ros2-ws/build/urg_c' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/precag/Documents/ros2-ws/src/urg_c -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/precag/Documents/ros2-ws/install/urg_c
+[1.265s] Invoking command in '/home/precag/Documents/ros2-ws/build/urg_c': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/precag/Documents/ros2-ws/build/urg_c -- -j8 -l8
+[1.324s] [  2%] [32mBuilding C object CMakeFiles/urg_c.dir/current/src/urg_sensor.c.o[0m
+[1.325s] [  5%] [32mBuilding C object CMakeFiles/urg_c.dir/current/src/urg_debug.c.o[0m
+[1.326s] [  8%] [32mBuilding C object CMakeFiles/urg_c.dir/current/src/urg_connection.c.o[0m
+[1.330s] [ 11%] [32mBuilding C object CMakeFiles/urg_c.dir/current/src/urg_utils.c.o[0m
+[1.331s] [ 14%] [32mBuilding C object CMakeFiles/urg_c.dir/current/src/urg_ring_buffer.c.o[0m
+[1.345s] [ 17%] [32mBuilding C object CMakeFiles/urg_c.dir/current/src/urg_tcpclient.c.o[0m
+[1.350s] [ 20%] [32mBuilding C object CMakeFiles/urg_c.dir/current/src/urg_serial_utils.c.o[0m
+[1.355s] [ 23%] [32mBuilding C object CMakeFiles/urg_c.dir/current/src/urg_serial.c.o[0m
+[1.380s] [ 26%] [32mBuilding C object CMakeFiles/urg_c.dir/current/src/urg_time.c.o[0m
+[1.515s] [ 29%] [32m[1mLinking C shared library liburg_c.so[0m
+[1.558s] [ 29%] Built target urg_c
+[1.578s] [ 32%] [32mBuilding C object CMakeFiles/open_urg_sensor.dir/current/samples/open_urg_sensor.c.o[0m
+[1.622s] [ 35%] [32m[1mLinking C static library libopen_urg_sensor.a[0m
+[1.969s] [ 35%] Built target open_urg_sensor
+[2.009s] [ 41%] [32mBuilding C object CMakeFiles/angle_convert_test.dir/current/samples/angle_convert_test.c.o[0m
+[2.010s] [ 44%] [32mBuilding C object CMakeFiles/find_port.dir/current/samples/find_port.c.o[0m
+[2.010s] [ 41%] [32mBuilding C object CMakeFiles/get_distance.dir/current/samples/get_distance.c.o[0m
+[2.014s] [ 47%] [32mBuilding C object CMakeFiles/get_multiecho_intensity.dir/current/samples/get_multiecho_intensity.c.o[0m
+[2.015s] [ 50%] [32mBuilding C object CMakeFiles/reboot_test.dir/current/samples/reboot_test.c.o[0m
+[2.020s] [ 52%] [32mBuilding C object CMakeFiles/calculate_xy.dir/current/samples/calculate_xy.c.o[0m
+[2.023s] [ 55%] [32mBuilding C object CMakeFiles/get_distance_intensity.dir/current/samples/get_distance_intensity.c.o[0m
+[2.042s] [ 58%] [32mBuilding C object CMakeFiles/get_multiecho.dir/current/samples/get_multiecho.c.o[0m
+[2.061s] [ 61%] [32m[1mLinking C executable find_port[0m
+[2.083s] [ 64%] [32m[1mLinking C executable get_multiecho_intensity[0m
+[2.087s] [ 67%] [32m[1mLinking C executable angle_convert_test[0m
+[2.093s] [ 70%] [32m[1mLinking C executable get_distance[0m
+[2.099s] [ 73%] [32m[1mLinking C executable reboot_test[0m
+[2.135s] [ 76%] [32m[1mLinking C executable get_distance_intensity[0m
+[2.148s] [ 79%] [32m[1mLinking C executable calculate_xy[0m
+[2.149s] [ 79%] Built target find_port
+[2.156s] [ 82%] [32m[1mLinking C executable get_multiecho[0m
+[2.185s] [ 82%] Built target get_distance
+[2.204s] [ 82%] Built target get_multiecho_intensity
+[2.215s] [ 85%] [32mBuilding C object CMakeFiles/sensor_parameter.dir/current/samples/sensor_parameter.c.o[0m
+[2.217s] [ 85%] Built target reboot_test
+[2.224s] [ 85%] Built target angle_convert_test
+[2.237s] [ 85%] Built target calculate_xy
+[2.244s] [ 85%] Built target get_distance_intensity
+[2.250s] [ 88%] [32mBuilding C object CMakeFiles/timeout_test.dir/current/samples/timeout_test.c.o[0m
+[2.251s] [ 88%] Built target get_multiecho
+[2.262s] [ 91%] [32mBuilding C object CMakeFiles/sync_time_stamp.dir/current/samples/sync_time_stamp.c.o[0m
+[2.264s] [ 94%] [32m[1mLinking C executable sensor_parameter[0m
+[2.296s] [ 97%] [32m[1mLinking C executable timeout_test[0m
+[2.314s] [100%] [32m[1mLinking C executable sync_time_stamp[0m
+[2.321s] [100%] Built target sensor_parameter
+[2.350s] [100%] Built target timeout_test
+[2.367s] [100%] Built target sync_time_stamp
+[2.380s] Invoked command in '/home/precag/Documents/ros2-ws/build/urg_c' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/precag/Documents/ros2-ws/build/urg_c -- -j8 -l8
+[2.477s] Invoking command in '/home/precag/Documents/ros2-ws/build/urg_c': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/precag/Documents/ros2-ws/build/urg_c
+[2.486s] -- Install configuration: ""
+[2.486s] -- Execute custom install script
+[2.486s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/lib/liburg_c.so
+[2.497s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/lib/libopen_urg_sensor.a
+[2.506s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/bin/angle_convert_test
+[2.515s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/bin/calculate_xy
+[2.525s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/bin/find_port
+[2.534s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/bin/get_distance
+[2.543s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/bin/get_distance_intensity
+[2.556s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/bin/get_multiecho
+[2.566s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/bin/get_multiecho_intensity
+[2.575s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/bin/reboot_test
+[2.584s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/bin/sensor_parameter
+[2.595s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/bin/sync_time_stamp
+[2.607s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/bin/timeout_test
+[2.616s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/include/urg_c/urg_connection.h
+[2.624s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/include/urg_c/urg_debug.h
+[2.634s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/include/urg_c/urg_detect_os.h
+[2.643s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/include/urg_c/urg_errno.h
+[2.654s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/include/urg_c/urg_ring_buffer.h
+[2.662s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/include/urg_c/urg_sensor.h
+[2.673s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/include/urg_c/urg_serial.h
+[2.685s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/include/urg_c/urg_serial_utils.h
+[2.693s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/include/urg_c/urg_tcpclient.h
+[2.706s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/include/urg_c/urg_time.h
+[2.716s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/include/urg_c/urg_utils.h
+[2.729s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/environment/library_path.sh
+[2.742s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/environment/library_path.dsv
+[2.755s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/share/ament_index/resource_index/package_run_dependencies/urg_c
+[2.767s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/share/ament_index/resource_index/parent_prefix_path/urg_c
+[2.779s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/environment/ament_prefix_path.sh
+[2.792s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/environment/ament_prefix_path.dsv
+[2.804s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/environment/path.sh
+[2.817s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/environment/path.dsv
+[2.829s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/local_setup.bash
+[2.840s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/local_setup.sh
+[2.854s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/local_setup.zsh
+[2.871s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/local_setup.dsv
+[2.879s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/package.dsv
+[2.893s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/share/ament_index/resource_index/packages/urg_c
+[2.908s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.922s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/cmake/ament_cmake_export_libraries-extras.cmake
+[2.934s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/cmake/urg_cConfig.cmake
+[2.948s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/cmake/urg_cConfig-version.cmake
+[2.959s] -- Symlinking: /home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/package.xml
+[2.976s] Invoked command in '/home/precag/Documents/ros2-ws/build/urg_c' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/precag/Documents/ros2-ws/build/urg_c

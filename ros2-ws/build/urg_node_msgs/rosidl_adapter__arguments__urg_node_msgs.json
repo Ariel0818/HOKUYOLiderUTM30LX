@@ -1,0 +1,6 @@
+{
+  "package_name": "urg_node_msgs",
+  "non_idl_tuples": [
+    "/home/precag/Documents/ros2-ws/src/urg_node_msgs:msg/Status.msg"
+  ]
+}

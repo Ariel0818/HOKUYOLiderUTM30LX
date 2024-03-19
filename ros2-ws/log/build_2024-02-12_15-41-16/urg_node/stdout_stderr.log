@@ -1,0 +1,98 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  
+-- Found diagnostic_updater: 3.1.2 (/opt/ros/humble/share/diagnostic_updater/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found laser_proc: 1.0.2 (/home/precag/Documents/ros2-ws/install/laser_proc/share/laser_proc/cmake)
+-- Found rclcpp_components: 16.0.8 (/opt/ros/humble/share/rclcpp_components/cmake)
+-- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+-- Found urg_c: 1.0.4001 (/home/precag/Documents/ros2-ws/install/urg_c/share/urg_c/cmake)
+-- Found urg_node_msgs: 1.0.1 (/home/precag/Documents/ros2-ws/install/urg_node_msgs/share/urg_node_msgs/cmake)
+-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/precag/Documents/ros2-ws/src/urg_node/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/precag/Documents/ros2-ws/build/urg_node
+[ 14%] [32mBuilding CXX object CMakeFiles/urg_node.dir/src/urg_c_wrapper.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/urg_node_driver.dir/rclcpp_components/node_main_urg_node_driver.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/urg_node.dir/src/urg_node.cpp.o[0m
+[ 57%] [32m[1mLinking CXX executable urg_node_driver[0m
+[ 57%] Built target urg_node_driver
+[ 71%] [32m[1mLinking CXX shared library liburg_node.so[0m
+[ 71%] Built target urg_node
+[ 85%] [32mBuilding CXX object CMakeFiles/getID.dir/src/get_id.cpp.o[0m
+[100%] [32m[1mLinking CXX executable getID[0m
+[100%] Built target getID
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node/lib/urg_node/urg_node_driver
+-- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node/lib/liburg_node.so
+-- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node/lib/urg_node/getID
+-- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node/include/urg_node/urg_c_wrapper.hpp
+-- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node/include/urg_node/urg_node.hpp
+-- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node/lib/urg_node/set_urg_ip.py
+-- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node/share/urg_node/launch/hokuyo_laser.urdf
+-- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node/share/urg_node/launch/urg_lidar.launch
+-- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node/share/urg_node/launch/urg_node_ethernet.yaml
+-- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node/share/urg_node/launch/urg_node_launch.py
+-- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node/share/urg_node/launch/urg_node_serial.yaml
+-- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node/share/urg_node/meshes/hokuyo_ust10.stl
+-- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node/share/urg_node/urdf/hokuyo_ust10.urdf.xacro
+-- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node/share/urg_node/environment/library_path.sh
+-- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node/share/urg_node/environment/library_path.dsv
+-- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node/share/ament_index/resource_index/package_run_dependencies/urg_node
+-- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node/share/ament_index/resource_index/parent_prefix_path/urg_node
+-- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node/share/urg_node/environment/ament_prefix_path.sh
+-- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node/share/urg_node/environment/ament_prefix_path.dsv
+-- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node/share/urg_node/environment/path.sh
+-- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node/share/urg_node/environment/path.dsv
+-- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node/share/urg_node/local_setup.bash
+-- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node/share/urg_node/local_setup.sh
+-- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node/share/urg_node/local_setup.zsh
+-- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node/share/urg_node/local_setup.dsv
+-- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node/share/urg_node/package.dsv
+-- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node/share/ament_index/resource_index/packages/urg_node
+-- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node/share/ament_index/resource_index/rclcpp_components/urg_node
+-- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node/share/urg_node/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node/share/urg_node/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node/share/urg_node/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node/share/urg_node/cmake/urg_nodeConfig.cmake
+-- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node/share/urg_node/cmake/urg_nodeConfig-version.cmake
+-- Symlinking: /home/precag/Documents/ros2-ws/install/urg_node/share/urg_node/package.xml

@@ -1,0 +1,4 @@
+source;share/urg_node/local_setup.bash
+source;share/urg_node/local_setup.dsv
+source;share/urg_node/local_setup.sh
+source;share/urg_node/local_setup.zsh

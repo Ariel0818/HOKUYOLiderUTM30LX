@@ -1,0 +1,2 @@
+/usr/bin/ar qc libopen_urg_sensor.a CMakeFiles/open_urg_sensor.dir/current/samples/open_urg_sensor.c.o
+/usr/bin/ranlib libopen_urg_sensor.a

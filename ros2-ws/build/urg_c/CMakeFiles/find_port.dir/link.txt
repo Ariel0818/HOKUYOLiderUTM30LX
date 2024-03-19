@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/find_port.dir/current/samples/find_port.c.o -o find_port  -Wl,-rpath,/home/precag/Documents/ros2-ws/build/urg_c libopen_urg_sensor.a liburg_c.so -lrt -lm 

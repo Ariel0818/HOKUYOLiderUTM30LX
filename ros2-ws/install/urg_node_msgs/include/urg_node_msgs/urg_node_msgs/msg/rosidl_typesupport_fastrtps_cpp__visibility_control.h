@@ -1,0 +1,1 @@
+/home/precag/Documents/ros2-ws/build/urg_node_msgs/rosidl_typesupport_fastrtps_cpp/urg_node_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h

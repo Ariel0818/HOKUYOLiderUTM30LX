@@ -1,0 +1,1 @@
+/home/precag/Documents/ros2-ws/build/urg_node_msgs/ament_cmake_python/urg_node_msgs/urg_node_msgs.egg-info/SOURCES.txt

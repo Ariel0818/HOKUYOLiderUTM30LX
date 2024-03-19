@@ -1,0 +1,6 @@
+Invoking command in '/home/precag/Documents/ros2-ws/build/urg_c': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/precag/Documents/ros2-ws/src/urg_c -DCMAKE_INSTALL_PREFIX=/home/precag/Documents/ros2-ws/install/urg_c
+Invoked command in '/home/precag/Documents/ros2-ws/build/urg_c' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/precag/Documents/ros2-ws/src/urg_c -DCMAKE_INSTALL_PREFIX=/home/precag/Documents/ros2-ws/install/urg_c
+Invoking command in '/home/precag/Documents/ros2-ws/build/urg_c': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/precag/Documents/ros2-ws/build/urg_c -- -j8 -l8
+Invoked command in '/home/precag/Documents/ros2-ws/build/urg_c' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/precag/Documents/ros2-ws/build/urg_c -- -j8 -l8
+Invoking command in '/home/precag/Documents/ros2-ws/build/urg_c': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/precag/Documents/ros2-ws/build/urg_c
+Invoked command in '/home/precag/Documents/ros2-ws/build/urg_c' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/precag/Documents/ros2-ws/build/urg_c

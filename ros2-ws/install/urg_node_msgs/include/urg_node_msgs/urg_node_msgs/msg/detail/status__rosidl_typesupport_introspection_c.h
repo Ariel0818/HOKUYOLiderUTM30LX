@@ -1,0 +1,1 @@
+/home/precag/Documents/ros2-ws/build/urg_node_msgs/rosidl_typesupport_introspection_c/urg_node_msgs/msg/detail/status__rosidl_typesupport_introspection_c.h

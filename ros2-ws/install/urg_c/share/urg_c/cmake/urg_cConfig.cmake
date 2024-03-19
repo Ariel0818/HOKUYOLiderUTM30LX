@@ -1,0 +1,1 @@
+/home/precag/Documents/ros2-ws/build/urg_c/ament_cmake_core/urg_cConfig.cmake
