@@ -1,8 +1,5 @@
 # 🍓 Strawberry Canopy Volume Estimation — LiDAR + Computer Vision
 
-**University of Florida · Agricultural and Biological Engineering · Precision Agriculture Lab**  
-**Author:** Shiyu Liu &nbsp;|&nbsp; **Duration:** Sep 2023 – Feb 2024
-
 ---
 
 ## Project Overview
